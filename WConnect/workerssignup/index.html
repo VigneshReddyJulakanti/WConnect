@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta name="viewport" content="width=device-width,intial-scale=1.0"> -->
+
+        <style>
+            body{background-image: url(https://bn1304files.storage.live.com/y4mhab1Li0A9fkidvgBGPgv3ONrEtnmZo5aKxwbBWpJ9WPGH1lIJxg9dvnXEjcBY7QSPsYfiYK_AwjOQbD4fQjAdlSAIBe1T_VaRKRGr6Sn7S2QYhtlLOV4-5gcZg0AtyAXQI1g3AhemN4QhqaKpzu-4avm8Ly5ToDMx1Vxg3NG9Pl3QkvwgPnh4iwV0R1Totnl?width=1000&height=1428&cropmode=none);background-repeat: no-repeat;background-size: cover;}
+            p{font-size: 250%;}
+            input,option{position: absolute;left: 110%;}
+            button{position: absolute;left:50% ; font-size: 100%;}
+            select{position:absolute;left:110%;font-size: 1vw;}
+
+        </style>
+    </head>
+    <body >
+        <div>
+        <h  style="font-size: 300%; position: absolute;left: 40%;"> Workers form </h>
+        </div>
+        <div>
+        <form  method="post" action="http://workersignupwconnect.epizy.com/workersdetails.php" style="position: absolute;top: 10%;left: 20%;">
+
+
+            <p>FullName:<input name="fullName" required/></p>
+            
+            <p>phone no 1:  <input id="phoneNo1" name="phoneNo1" placeholder="This will ur username" onkeyup="check()"  required/></p><p style="font-size:2vw; color: red;" class="warn" id="p1alused"></p>
+            <p>phone no 2:  <input id="phoneNo2" name="phoneNo2"/></p>
+          
+            <p>cost per hour:    <input name="costPerHour" placeholder="average cost" /></p>
+            
+
+            <p>
+              worksector: <select name="worksector" id="worksector">
+                  <option value="not selected" selected="selected">worksector</option>
+                </select>
+                <br>
+              </p>
+
+            <p>
+                State: <select name="state" id="state">
+                    <option value="not selected" selected="selected">Select state</option>
+                  </select>
+                  <br>
+                </p>
+                <p>
+                <br>
+                  District: <select name="district" id="district">
+                  <option value="" selected="selected">Select district</option>
+                  </select>
+                  <br>
+                </p>
+                <p>
+    
+                <br>
+                  Mandal : <select name="workPlace" id="workPlace">
+                  <option value="" selected="selected">Select workPlace</option>
+                  </select>
+                  <br>
+                </p><br>
+      
+
+
+            <p id="fillcrt" style="font-size:2vw; color: red;"></p>
+            <p><button id="sub" style="position: absolute;left:50% ; font-size: 100%; " onclick="cli()" value="submit">Submit</button></p>
+            <p style="height: 50px;"></p>
+           
+
+        </form>
+    </div>
+    <script>
+      doAJAX();
+
+
+
+
+var subjectObject = {
+
+  "Telangana":{
+ "Adilabad":["Adilabad(urban)","Adilabad(rural)","Mavala","Gudihatnoor","Bajahatnoor","Bela","Boadh","Jainath","Indervelly","Narnoor","Gudiguda","Utnoor"],
+ "Bhadradri_Kothagudem":["Kothagudem","Palwancha","Tekulapalli","Yellandu","Chandrugonda","Aswaraopeta","Mulakalapalli","Dammapeta","Gundala","Julurpadu","Sujathangar","Chunchupalle","Laxmidevipalli","Allapalli","Annapureddypalli","Bhadrachalam","Dummugudem","Cherla","Burgampahad","Aswapuram"],
+ "Hyderabad":["Secunderabad","Amberpet","Asifnagar","Bahadurpura","Bandlaguda","Charminar","Golkonda","Himayathnagar","Nampally","Saidabad","Ameerpet","Khairtabad","Marredpally","Musheerabad","Shaikpet","Trimulgherry"],
+ "Jagitial":["Jagitial","Jagitial(Rural)","Raikal","Sarangapur","Beeerpur","Dharmapuri","Buggaram","Pegadapalli","Gollapalli","Mallial","Kodimial","Velgatur","Korutla","Metpalli","Mallapur","Ibrahimpatnam","Medipalli","Kathlapur"],
+ "Jangaon":["Bachannapeta","Devaruppala","Gundala","Jangaon","Lingalaghanpur","Narmetta","Raghunathapalle","Tarigoppula","Chilpur","Zaffergadh","Kodakandla","Palakurthi","Station Ghanpur"],
+ "Jayashankar_Bhupalpally":["Bhupalaplle","Chityal","Ghanpur","Kataram","Mahadevpur","Maha Mutharam","Malharrao","Mogullapalle","Palimela","Regonda","Tekumatla","Eturunagaram","Govindaraopet","Mangapet","Mulug","Tadvai","Vajedu","Venkatapur","Kannaigudem"],
+ "Jogulamba_Gadwal":["Ieeja","Maldakal","Manopad","Ghattu","Alampur","Dharoor","Gadwal","Itikyala","Kaloor-thimmana Doddi","Rajoli","Undavelly","Waddepally"],
+ "Kamareddy":["Kamareddy","Elichpur","Adloor","Isrojiwadi","Gargul","Thimmakkapalle","Gudem","Uggrawai","Shabdipur","Rameswarpalle","Devanpalle","Lingapur(R)","Sarampalle","Kyasampalle","Raghavapur","Patharajampet","Chinna Mallareddy","Arepalle","Achampet","Hasanpalle"],
+ "Karimnagar":["Karimnagar","Kothapally","Karimnagar Rural","Manakondur","Thimmapur","Ganneruvaram","Gangadhara","Ramadugu","Choppadandi","Chigurumamidi","Huzurabad","Veenavanka","V.Saidapur","Jammikunta","Ellandakunta","Shankarapatnam"],
+ "Khammam":["Khammam ","Khammam Rural","Madhira","Kalluru","Thirumalayapalem","Nelakondapalli","Konijerla","Kusumanchi","Mudigonda","Thallada","Singareni","Wyra","Penuballi","Yerrupalem","Chinthakani","Vemsoor","Bonakal","Kamepalli","Sathupally","Raghunathapalem(New)","Enkuru"],
+ "Kumuram_Bheem":["Asifabad","Bejjur","Dahegaon","Jainoor","Kagaznagar","Kerameri","Kouthala","Rebbena","Sirpur(T)","Sirpur(U)","Tiryani","Wankidi"],
+ "Mahabubabad":["Mahabubabad","Kuravi","Kesamudram","Dornakal","Gudur","Kothaguda","Gangaram","Bayyaram","Garla","Chinnagudur","Danthalapalle","Thorrur","Nellikudur","Maripeda","Narsimhulapet","Peddavangara"],
+ "Mahabubnagar":["Addakal","Balanagar","Bhoothpur","CC Kunta","Devarakadra","Gandeed","Hanwada","Jadcherla","Koilkonda","MBNR","MBNR(U)","Moosapet","Midjil","Nawabpet","Rajapur"],
+ "Mancherial":["Chennur","Jaipur","Bheemaram","Kotapally","Luxettipet","Mancherial","Naspur","Hajipur","Mandamarri","Dandepally","Jannaram","Kasipet","Bellampally","Vempally","Nennel","Tandur","Bheemini","Kannepally"],
+ "Medak":["Medak","Havelighanpur","Papannapet","Shankarampet-R","Ramayampet","Nizampet","Shankarampet-A","Tekmal","Alladurg","Regode","Narsapur","Kulcharam","Kowdipally","Shivampet","chilipched","Toopran","Chegunta","Narsingi","Yeldurthy","Manoharabad"],
+ "Medchal_Malkajgiri":["Alwal","Bachupally","Balanagar","Dundigal","Kukatpally","Malkajgiri","Quthbullapur","Ghatkesar","kapra","Keesara","Medchal","Medipally","shamirpet","Uppal"],
+ "Mulugu":["Eturnagaram","Govindaraopet","Kannaigudem","Mangapet","Mulug","Tadvai","Venkatapur","Venkatapuram","Wazeed"],
+ "Nagarkurnool":["Nagarkurnool","Tadoor","Pentlavelli","Kollapur","Kodair","Kalwakurthy","Urkonda","Charakonda","Vangoor","Veldanda","Achampet","Uppununthala","Amrabad","Bijnapalle","Telkapalle"],
+ "Narayanpet":["Damargidda","Dhanwada","Kosgi","Krishna","Maddur","Maganur","Makthal","Marikal","Narayanpet","Narva","Utkur"],
+ "Nalgonda":["Chandur","Chityal","kanagal","Kattangur","Munugode","Nakrekal","Nalgonda","Narayanapoor","Narketpally","Thipparthy","Kethepally","Shaligouraram","Ghattuppal","Damaracherla","Miryalaguda","Vemulapally","Anumula(Haliya)","Nidmanoor","Pedavoora","Tripuraram","Madgulapalli","Tirumalagiri","Chandampeta","Chinthappally","Devarkonda","Gundlapally","Gurrampode","Konda_Mallepally","Marriguda","Nampally","P.A.Pally"],
+ "Nirmal":["Basar","Bhainsa","Dasturabad","Dilawarpur","Kaddam(Peddur)","Khanapur","Kubeer","Kuntala","Laxmanchanda","Lokeswaram","Mamda","Mudhole","Narsapur G","Nirmal","Nirmal Rural","Pembi","Sarangapur","Soan","Tanur"],
+ "Nizamabad":["Armoor","Balkonda","Mupkal","Mendora","Kammar palle","Velpur","Morthad","Bheemgal","Jakranpally","Nandipet","Yergatla","Bodhan","Yedapally","Renjal","Kotagiri","Varni","Rudrur","Chandur","Mosra","Mugpal","Dichpally","Dharpally","Indalwai","Makloor","Sirikonda","Navipet"],
+ "Peddapalli":["Peddapalli","Sulthanabad","Ramagundam","Manthani","Darmaram","Ramagiri","Kamanpur","Kalva Srirampur","Julapalli","Eligaid","Odela","Mutharam(Manthani)","Palakurthy","Anthergoan"],
+ "Rajanna_Sircilla":["Boinpalli","Chandurthi","Ellanthakunta","Gambhiraopet","Konaraopet","Mustabad","Rudrangi","Sircilla","Thangallaplli","Veernapalli","Vemulawada","Vemulawada Rural","Yellareddipet"],
+ "Ranga_Reddy":["Chevella","Moinabad","Shahbad","Shankarpalle","Abdullapuramet","Hayathnagar","Ibrahimpatanam","Madgul","Manchal","Yacharam","Amangal","Balapur","Kandukur","Kadthal","Maheswaram","Thalakondapalle","Saroornagar","Gandipet","Rajendranagar","Serilingampally","Shamshabad","Chowderguda","Farooqnagar","Keshampeta","Kondurg","Kothur","Nandigama"],
+ "Sangareddy":["Ameenpur","Andole","Gummadidala","Hathnoora","Jinnaram","Kandi","Kondapur","Munipally","Patancheru","Pulkal","Ramachandrapuram","Sadasivpet","sangaredddy","Vatpally","Jharasangam","kohir","Mogudampally","Nyalkal","Raikode","Zaheerabad"],
+ "Siddipet":["Siddipet(Urban)","Siddipet(Rural)","Nangnoor","Chinnakodur","Thoguta","Doultabad","Mirdoddi","Dubbak","Cherial","Komuravelli","Gajwel","Jagdevpur","Kondapak","Mulug","Markook","Wargal","Raipole","Husnabad","Akkannapet","Koheda","Bejjanki","Maddur"],
+ "Suryapet":["Atmakur(s)","Chivvemla","Jajireddygudem","Mothey","Nuthankal","Penpahad","Suryapet","Thirumalagiri","Thungathurthy","Garidepally","Neredcherla","Nagaram","Maddirala","Palakeedu","Chilkur","Huzurnagar","Kodad","Mattampally","Mellachervu","Mungala","Nadigudem","Ananthagiri","Mallareddygudem"],
+ "Vikarabad":["Basheerabad","Bommaraspet","Doulthabad","Kodangal","Peddemul","Tandur","Yelal","Doma","Dharur","Bantwaram","Kulkacherla","Kotepally","Marpalle","Mominpet","Nawabpet","Pudur","Pargi","Vikarabad"],
+ "Wanaparthy":["Amarchinta","Atmakur","Chinnambavi","Ghanpur(khilla)","Gopalpeta","Kothakota","Madanapur","Pangal","Pebbair","Peddamandadi","Revally","Srirangapur","Veepanagandla","Wanaparthy"],
+ "Warangal_Rural":["Atmakur","Damera","Geesugonda","Parkal","Parvathagiri","Rayaparthy","Sangem","Shayampet","Wardhannapet","Chennaraopet","Duggondi","Khanapur","Narsampet","Nallabelly","Nekkonda"],
+ "Warangal_Urban":["Bheemadevarpalli","Dharmasagar","Elkathurthy","Inavole","Hanamkonda","Hasanparthy","Kamalapur","Kazipet","Khila Warangal","Velair","Warangal"],
+ "Yadadri_Bhuvanagiri":["Addaguduru","Alair","Atmakur(M)","Bibinagar","Bhongir","Bommalaramaram","Motakondur","Mothkur","Rajapet","Turkapally","Yadagirigutta","Bhoodan_Pochampally","Choutuppal","Narayanpur","Ramannapet","Valigonda"],
+
+
+}
+}
+var worksector=["Carpenter","Electrician","Plumber","Painter","Glazier","Mason & Concrete Finisher","Brick Mason","Dry Wall Installer","Welder","Elevator Mechanic","Tile Setter","","","","","",""]
+window.onload = function() {
+
+var subjectSel = document.getElementById("state");
+var topicSel = document.getElementById("district");
+var chapterSel = document.getElementById("workPlace");
+var worksectorSel=document.getElementById("worksector");
+for (var x in worksector) {
+  worksectorSel.options[worksectorSel.options.length] = new Option(worksector[x], worksector[x]);
+}
+for (var x in subjectObject) {
+  subjectSel.options[subjectSel.options.length] = new Option(x, x);
+}
+subjectSel.onchange = function() {
+  //empty Chapters- and Topics- dropdowns
+  chapterSel.length = 1;
+  topicSel.length = 1;
+  //display correct values
+  for (var y in subjectObject[this.value]) {
+    topicSel.options[topicSel.options.length] = new Option(y, y);
+  }
+}
+topicSel.onchange = function() {
+  //empty Chapters dropdown
+  chapterSel.length = 1;
+  //display correct values
+  var z = subjectObject[subjectSel.value][this.value];
+  for (var i = 0; i < z.length; i++) {
+    chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+  }
+}
+}
+
+
+
+
+
+
+
+
+var outp;
+function doAJAX(){
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://workersignupwconnect.epizy.com/data.php");
+  xhr.onload = function(){
+    outp = this.response;
+    console.log(outp);
+    outp=JSON.parse(outp);
+    
+  };
+  xhr.send();
+ 
+}
+
+
+var inputt = document.getElementById("phoneNo1");
+
+function check(){
+    phoneNo1=inputt.value;
+    phoneNo1=phoneNo1.toString()
+    if(phoneNo1.length==10){
+        console.log("phone no ln 10");
+        
+        // dlen=outp.length
+        // console.log(dlen)
+        var p1used=false
+
+        for(ph in outp){
+          
+            if(outp[ph].phoneNo1==phoneNo1){
+                document.getElementById("p1alused").innerHTML="This phone number : "+phoneNo1+" is already used , Use another";
+                console.log("phone No already exist");
+                document.getElementById("fillcrt").innerHTML="Fill the form correctly";
+                // var myobj = document.getElementById("sub");
+                // myobj.remove();
+                document.getElementById("sub").disabled = true;
+                
+
+
+                
+                p1used=true
+                break;
+            }
+            if(p1used==false){
+                document.getElementById("p1alused").innerHTML="You can use this";
+                document.getElementById("sub").disabled = false;
+             
+
+
+            }
+        }
+       
+        
+    }
+}
+
+function cli(){
+    pn=document.getElementById("phoneNo1").value
+    lin="http://wconnectopen1.epizy.com/"+"?pn="+pn;
+    window.open(lin)
+
+}
+
+
+</script>
+
+    </body>
+</html>

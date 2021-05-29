@@ -1,0 +1,820 @@
+idd,fullName,workPlace,district,state,phoneNo1,phoneNo2,worksector,costPerHour
+1,Vignesh Reddy ,Nalgonda,Nalgonda,Telangana,8309882962,647576775,Painter,1426
+2,anusha,Himayathnagar,Hyderabad,Telangana,4567890123,1426789056,Painter,1426
+3,Vignesh Reddy ,Himayathnagar,Hyderabad,Telangana,4567890123,1426789056,Painter,1426
+4,wpBot04,Secunderabad,Hyderabad,Telangana,7443381050,9936744286,Carpenter,370
+5,wpBot05,Secunderabad,Hyderabad,Telangana,7658006268,8929279760,Carpenter,248
+6,wpBot06,Secunderabad,Hyderabad,Telangana,7391388847,9778158505,Carpenter,241
+7,wpBot07,Secunderabad,Hyderabad,Telangana,9157687658,7992645895,Electrician,719
+8,wpBot08,Secunderabad,Hyderabad,Telangana,9344169453,7955621886,Electrician,914
+9,wpBot09,Secunderabad,Hyderabad,Telangana,9773091006,7386400002,Electrician,276
+10,wpBot010,Secunderabad,Hyderabad,Telangana,8494645364,7063942391,Plumber,788
+11,wpBot011,Secunderabad,Hyderabad,Telangana,8147103597,8003098049,Plumber,325
+12,wpBot012,Secunderabad,Hyderabad,Telangana,9140963631,9209958970,Plumber,378
+13,wpBot013,Secunderabad,Hyderabad,Telangana,9072439107,7458346488,Painter,165
+14,wpBot014,Secunderabad,Hyderabad,Telangana,7205030252,9634206863,Painter,248
+15,wpBot015,Secunderabad,Hyderabad,Telangana,7977688620,8890899770,Painter,512
+16,wpBot016,Secunderabad,Hyderabad,Telangana,9755533147,8299651737,Glazier,619
+17,wpBot017,Secunderabad,Hyderabad,Telangana,7951262780,8204892032,Glazier,794
+18,wpBot018,Secunderabad,Hyderabad,Telangana,7296792050,9527490762,Glazier,116
+19,wpBot019,Secunderabad,Hyderabad,Telangana,8156162599,8320820793,Mason & Concrete Finisher,324
+20,wpBot020,Secunderabad,Hyderabad,Telangana,8237847037,9679440851,Mason & Concrete Finisher,604
+21,wpBot021,Secunderabad,Hyderabad,Telangana,9192865519,8863301711,Mason & Concrete Finisher,938
+22,wpBot022,Secunderabad,Hyderabad,Telangana,9614687213,7763057179,Brick Mason,597
+23,wpBot023,Secunderabad,Hyderabad,Telangana,7840856110,7548156204,Brick Mason,811
+24,wpBot024,Secunderabad,Hyderabad,Telangana,7100158315,9063612934,Brick Mason,991
+25,wpBot025,Secunderabad,Hyderabad,Telangana,9529881518,8813541563,Dry Wall Installer,784
+26,wpBot026,Secunderabad,Hyderabad,Telangana,9682037013,7933043238,Dry Wall Installer,404
+27,wpBot027,Secunderabad,Hyderabad,Telangana,8841856450,9997855575,Dry Wall Installer,479
+28,wpBot028,Secunderabad,Hyderabad,Telangana,8051669631,8647428984,Welder,622
+29,wpBot029,Secunderabad,Hyderabad,Telangana,9759748804,9273480624,Welder,811
+30,wpBot030,Secunderabad,Hyderabad,Telangana,7766034148,9361690293,Welder,164
+31,wpBot031,Secunderabad,Hyderabad,Telangana,8843503742,7725852492,Elevator Mechanic,344
+32,wpBot032,Secunderabad,Hyderabad,Telangana,8213913065,7898083897,Elevator Mechanic,645
+33,wpBot033,Secunderabad,Hyderabad,Telangana,7558767136,7336390304,Elevator Mechanic,814
+34,wpBot034,Secunderabad,Hyderabad,Telangana,8593657302,9168698492,Tile Setter,587
+35,wpBot035,Secunderabad,Hyderabad,Telangana,9058015063,9278455766,Tile Setter,967
+36,wpBot036,Secunderabad,Hyderabad,Telangana,9915513280,9638873654,Tile Setter,663
+37,wpBot037,Secunderabad,Hyderabad,Telangana,7827306089,7629401088,,345
+38,wpBot038,Secunderabad,Hyderabad,Telangana,7739207770,7379075128,,443
+39,wpBot039,Secunderabad,Hyderabad,Telangana,9324576667,7532994308,,295
+40,wpBot040,Secunderabad,Hyderabad,Telangana,8436304991,7008383117,,381
+41,wpBot041,Secunderabad,Hyderabad,Telangana,9867295957,7735321396,,726
+42,wpBot042,Secunderabad,Hyderabad,Telangana,7676371455,8636569319,,381
+43,wpBot043,Secunderabad,Hyderabad,Telangana,7272274684,9977117841,,218
+44,wpBot044,Secunderabad,Hyderabad,Telangana,8852872270,7712307961,,541
+45,wpBot045,Secunderabad,Hyderabad,Telangana,8986203638,7434899453,,298
+46,wpBot046,Secunderabad,Hyderabad,Telangana,8359747103,8062165538,,114
+47,wpBot047,Secunderabad,Hyderabad,Telangana,8829988650,7974433632,,275
+48,wpBot048,Secunderabad,Hyderabad,Telangana,7525888434,8288549073,,553
+49,wpBot049,Secunderabad,Hyderabad,Telangana,8549748190,8092356307,,755
+50,wpBot050,Secunderabad,Hyderabad,Telangana,7628212553,7638585031,,610
+51,wpBot051,Secunderabad,Hyderabad,Telangana,8824767367,8963589354,,112
+52,wpBot052,Secunderabad,Hyderabad,Telangana,8728821550,7700496619,,648
+53,wpBot053,Secunderabad,Hyderabad,Telangana,8056789836,8973428966,,988
+54,wpBot054,Secunderabad,Hyderabad,Telangana,9214842046,9269963387,,410
+55,wpBot055,Amberpet,Hyderabad,Telangana,7741698305,8238771125,Carpenter,963
+56,wpBot056,Amberpet,Hyderabad,Telangana,8495510572,7847758540,Carpenter,995
+57,wpBot057,Amberpet,Hyderabad,Telangana,8789717745,7332018809,Carpenter,541
+58,wpBot058,Amberpet,Hyderabad,Telangana,9443877265,8340283777,Electrician,665
+59,wpBot059,Amberpet,Hyderabad,Telangana,9806805764,7914294819,Electrician,934
+60,wpBot060,Amberpet,Hyderabad,Telangana,8915429863,9742573704,Electrician,915
+61,wpBot061,Amberpet,Hyderabad,Telangana,8028046175,8205079584,Plumber,321
+62,wpBot062,Amberpet,Hyderabad,Telangana,7014413371,8601795783,Plumber,715
+63,wpBot063,Amberpet,Hyderabad,Telangana,7426610390,9399120190,Plumber,636
+64,wpBot064,Amberpet,Hyderabad,Telangana,8207660246,9991310546,Painter,767
+65,wpBot065,Amberpet,Hyderabad,Telangana,9751238764,8330112239,Painter,914
+66,wpBot066,Amberpet,Hyderabad,Telangana,8710309501,8732744977,Painter,268
+67,wpBot067,Amberpet,Hyderabad,Telangana,8375315596,9119906842,Glazier,150
+68,wpBot068,Amberpet,Hyderabad,Telangana,7626360588,9804645589,Glazier,820
+69,wpBot069,Amberpet,Hyderabad,Telangana,9495600387,8601048176,Glazier,714
+70,wpBot070,Amberpet,Hyderabad,Telangana,8995037421,7536862861,Mason & Concrete Finisher,388
+71,wpBot071,Amberpet,Hyderabad,Telangana,8930435293,9958241014,Mason & Concrete Finisher,960
+72,wpBot072,Amberpet,Hyderabad,Telangana,9302117903,8854217114,Mason & Concrete Finisher,801
+73,wpBot073,Amberpet,Hyderabad,Telangana,7734124020,9145374078,Brick Mason,268
+74,wpBot074,Amberpet,Hyderabad,Telangana,9113225842,8284773930,Brick Mason,151
+75,wpBot075,Amberpet,Hyderabad,Telangana,7544307699,9499955407,Brick Mason,106
+76,wpBot076,Amberpet,Hyderabad,Telangana,7921281814,9099000881,Dry Wall Installer,733
+77,wpBot077,Amberpet,Hyderabad,Telangana,7369324146,8639945811,Dry Wall Installer,938
+78,wpBot078,Amberpet,Hyderabad,Telangana,8149302525,8277441978,Dry Wall Installer,516
+79,wpBot079,Amberpet,Hyderabad,Telangana,9082451310,9951588653,Welder,337
+80,wpBot080,Amberpet,Hyderabad,Telangana,8741844599,8965133294,Welder,575
+81,wpBot081,Amberpet,Hyderabad,Telangana,8742974368,7188827625,Welder,797
+82,wpBot082,Amberpet,Hyderabad,Telangana,8112030530,9596246743,Elevator Mechanic,211
+83,wpBot083,Amberpet,Hyderabad,Telangana,8344393565,7262037497,Elevator Mechanic,1000
+84,wpBot084,Amberpet,Hyderabad,Telangana,7375531804,7397074399,Elevator Mechanic,618
+85,wpBot085,Amberpet,Hyderabad,Telangana,7356536971,9680214401,Tile Setter,140
+86,wpBot086,Amberpet,Hyderabad,Telangana,7750368632,9953477156,Tile Setter,682
+87,wpBot087,Amberpet,Hyderabad,Telangana,7127609957,9088454562,Tile Setter,693
+88,wpBot088,Amberpet,Hyderabad,Telangana,9137853738,8601976805,,244
+89,wpBot089,Amberpet,Hyderabad,Telangana,7053017837,7809203482,,884
+90,wpBot090,Amberpet,Hyderabad,Telangana,9945863706,9083142322,,289
+91,wpBot091,Amberpet,Hyderabad,Telangana,8816309235,7070752399,,564
+92,wpBot092,Amberpet,Hyderabad,Telangana,8803633514,8077620049,,766
+93,wpBot093,Amberpet,Hyderabad,Telangana,9857058470,9411435587,,592
+94,wpBot094,Amberpet,Hyderabad,Telangana,9757585166,9251755410,,820
+95,wpBot095,Amberpet,Hyderabad,Telangana,9640220223,7586368998,,795
+96,wpBot096,Amberpet,Hyderabad,Telangana,7736217202,8363909972,,386
+97,wpBot097,Amberpet,Hyderabad,Telangana,9847669975,8267887244,,560
+98,wpBot098,Amberpet,Hyderabad,Telangana,8673365168,8990376132,,571
+99,wpBot099,Amberpet,Hyderabad,Telangana,8255570729,8414561530,,292
+100,wpBot0100,Amberpet,Hyderabad,Telangana,7639258641,8642215096,,968
+101,wpBot0101,Amberpet,Hyderabad,Telangana,7411132808,8297460106,,325
+102,wpBot0102,Amberpet,Hyderabad,Telangana,9305198127,9831756240,,199
+103,wpBot0103,Amberpet,Hyderabad,Telangana,7626886954,8698370362,,834
+104,wpBot0104,Amberpet,Hyderabad,Telangana,7617996326,8151835893,,496
+105,wpBot0105,Amberpet,Hyderabad,Telangana,8455995039,9569916739,,544
+106,wpBot0106,Asifnagar,Hyderabad,Telangana,8074515302,9121156896,Carpenter,496
+107,wpBot0107,Asifnagar,Hyderabad,Telangana,8406218530,8703080283,Carpenter,209
+108,wpBot0108,Asifnagar,Hyderabad,Telangana,8747462385,9703034897,Carpenter,635
+109,wpBot0109,Asifnagar,Hyderabad,Telangana,9616278985,7190568184,Electrician,316
+110,wpBot0110,Asifnagar,Hyderabad,Telangana,7096205805,9218475318,Electrician,676
+111,wpBot0111,Asifnagar,Hyderabad,Telangana,9977186511,7763871969,Electrician,996
+112,wpBot0112,Asifnagar,Hyderabad,Telangana,7449418955,8131751955,Plumber,793
+113,wpBot0113,Asifnagar,Hyderabad,Telangana,8001413473,8923835547,Plumber,731
+114,wpBot0114,Asifnagar,Hyderabad,Telangana,9097725580,9594402472,Plumber,562
+115,wpBot0115,Asifnagar,Hyderabad,Telangana,9291009616,8612742051,Painter,166
+116,wpBot0116,Asifnagar,Hyderabad,Telangana,7246375470,7867212698,Painter,783
+117,wpBot0117,Asifnagar,Hyderabad,Telangana,8036794541,8934844621,Painter,913
+118,wpBot0118,Asifnagar,Hyderabad,Telangana,7711875281,9884299447,Glazier,625
+119,wpBot0119,Asifnagar,Hyderabad,Telangana,9908495693,9167659852,Glazier,243
+120,wpBot0120,Asifnagar,Hyderabad,Telangana,9226150350,7035878351,Glazier,733
+121,wpBot0121,Asifnagar,Hyderabad,Telangana,8879718791,7173123148,Mason & Concrete Finisher,873
+122,wpBot0122,Asifnagar,Hyderabad,Telangana,9308181740,8317348521,Mason & Concrete Finisher,984
+123,wpBot0123,Asifnagar,Hyderabad,Telangana,8366066826,7495664134,Mason & Concrete Finisher,937
+124,wpBot0124,Asifnagar,Hyderabad,Telangana,7142252550,7316705428,Brick Mason,514
+125,wpBot0125,Asifnagar,Hyderabad,Telangana,8756747661,9638005106,Brick Mason,679
+126,wpBot0126,Asifnagar,Hyderabad,Telangana,9626300981,7807344125,Brick Mason,425
+127,wpBot0127,Asifnagar,Hyderabad,Telangana,8426316362,9929533403,Dry Wall Installer,854
+128,wpBot0128,Asifnagar,Hyderabad,Telangana,7733069675,9117372331,Dry Wall Installer,635
+129,wpBot0129,Asifnagar,Hyderabad,Telangana,8431236691,7841250708,Dry Wall Installer,120
+130,wpBot0130,Asifnagar,Hyderabad,Telangana,9106421319,9362451790,Welder,627
+131,wpBot0131,Asifnagar,Hyderabad,Telangana,7177837039,9748193892,Welder,879
+132,wpBot0132,Asifnagar,Hyderabad,Telangana,9641258502,8367263453,Welder,161
+133,wpBot0133,Asifnagar,Hyderabad,Telangana,7783042041,7053575454,Elevator Mechanic,643
+134,wpBot0134,Asifnagar,Hyderabad,Telangana,7791526851,7803333238,Elevator Mechanic,106
+135,wpBot0135,Asifnagar,Hyderabad,Telangana,9739378584,7717142982,Elevator Mechanic,205
+136,wpBot0136,Asifnagar,Hyderabad,Telangana,7332855978,8085864803,Tile Setter,541
+137,wpBot0137,Asifnagar,Hyderabad,Telangana,8438834618,7073910130,Tile Setter,474
+138,wpBot0138,Asifnagar,Hyderabad,Telangana,7692490046,9283973484,Tile Setter,257
+139,wpBot0139,Asifnagar,Hyderabad,Telangana,7559420547,9480633979,,850
+140,wpBot0140,Asifnagar,Hyderabad,Telangana,8987989069,9770131949,,699
+141,wpBot0141,Asifnagar,Hyderabad,Telangana,9319397662,9962294633,,235
+142,wpBot0142,Asifnagar,Hyderabad,Telangana,8732334308,9968459191,,812
+143,wpBot0143,Asifnagar,Hyderabad,Telangana,8877068057,9497753897,,450
+144,wpBot0144,Asifnagar,Hyderabad,Telangana,7274183685,8314941021,,320
+145,wpBot0145,Asifnagar,Hyderabad,Telangana,7149779019,8816011753,,504
+146,wpBot0146,Asifnagar,Hyderabad,Telangana,7668771829,8485308208,,376
+147,wpBot0147,Asifnagar,Hyderabad,Telangana,8829105834,9591300353,,696
+148,wpBot0148,Asifnagar,Hyderabad,Telangana,9430198707,7047005223,,182
+149,wpBot0149,Asifnagar,Hyderabad,Telangana,7507344902,9965131651,,444
+150,wpBot0150,Asifnagar,Hyderabad,Telangana,9735451565,8168696648,,962
+151,wpBot0151,Asifnagar,Hyderabad,Telangana,9636521157,7637869794,,608
+152,wpBot0152,Asifnagar,Hyderabad,Telangana,9163245612,8379052847,,755
+153,wpBot0153,Asifnagar,Hyderabad,Telangana,8997747580,9151421385,,680
+154,wpBot0154,Asifnagar,Hyderabad,Telangana,7757938607,9506125630,,539
+155,wpBot0155,Asifnagar,Hyderabad,Telangana,8038695057,9134294369,,270
+156,wpBot0156,Asifnagar,Hyderabad,Telangana,7169644439,8174201390,,923
+157,wpBot0157,Bahadurpura,Hyderabad,Telangana,9658597120,7672457573,Carpenter,792
+158,wpBot0158,Bahadurpura,Hyderabad,Telangana,8075110046,8690487550,Carpenter,417
+159,wpBot0159,Bahadurpura,Hyderabad,Telangana,8470148087,8514445000,Carpenter,499
+160,wpBot0160,Bahadurpura,Hyderabad,Telangana,7816735885,9377565713,Electrician,917
+161,wpBot0161,Bahadurpura,Hyderabad,Telangana,8331348741,7691402384,Electrician,394
+162,wpBot0162,Bahadurpura,Hyderabad,Telangana,7199298307,7427231936,Electrician,301
+163,wpBot0163,Bahadurpura,Hyderabad,Telangana,9578725459,8216289101,Plumber,759
+164,wpBot0164,Bahadurpura,Hyderabad,Telangana,7347438466,9632643600,Plumber,313
+165,wpBot0165,Bahadurpura,Hyderabad,Telangana,7536425708,8152332521,Plumber,134
+166,wpBot0166,Bahadurpura,Hyderabad,Telangana,8187591694,8578208393,Painter,446
+167,wpBot0167,Bahadurpura,Hyderabad,Telangana,9010601630,9759623762,Painter,604
+168,wpBot0168,Bahadurpura,Hyderabad,Telangana,8953869869,7797126935,Painter,1000
+169,wpBot0169,Bahadurpura,Hyderabad,Telangana,7007394246,7438111936,Glazier,167
+170,wpBot0170,Bahadurpura,Hyderabad,Telangana,7768948506,9157128854,Glazier,858
+171,wpBot0171,Bahadurpura,Hyderabad,Telangana,9359656688,7213034155,Glazier,499
+172,wpBot0172,Bahadurpura,Hyderabad,Telangana,8925382962,9389845980,Mason & Concrete Finisher,563
+173,wpBot0173,Bahadurpura,Hyderabad,Telangana,8963739719,7757073300,Mason & Concrete Finisher,674
+174,wpBot0174,Bahadurpura,Hyderabad,Telangana,7783734192,9992166349,Mason & Concrete Finisher,804
+175,wpBot0175,Bahadurpura,Hyderabad,Telangana,7032418836,8562960856,Brick Mason,910
+176,wpBot0176,Bahadurpura,Hyderabad,Telangana,8129154546,8805828837,Brick Mason,503
+177,wpBot0177,Bahadurpura,Hyderabad,Telangana,7851022008,7583105411,Brick Mason,898
+178,wpBot0178,Bahadurpura,Hyderabad,Telangana,7519664735,7612439274,Dry Wall Installer,511
+179,wpBot0179,Bahadurpura,Hyderabad,Telangana,7647008666,7093697575,Dry Wall Installer,419
+180,wpBot0180,Bahadurpura,Hyderabad,Telangana,9774047604,7171770247,Dry Wall Installer,350
+181,wpBot0181,Bahadurpura,Hyderabad,Telangana,7487072171,7451006394,Welder,669
+182,wpBot0182,Bahadurpura,Hyderabad,Telangana,7295553546,9110840611,Welder,237
+183,wpBot0183,Bahadurpura,Hyderabad,Telangana,8810440373,8655688702,Welder,504
+184,wpBot0184,Bahadurpura,Hyderabad,Telangana,8366539413,8693448028,Elevator Mechanic,364
+185,wpBot0185,Bahadurpura,Hyderabad,Telangana,7411856488,8082639190,Elevator Mechanic,730
+186,wpBot0186,Bahadurpura,Hyderabad,Telangana,8779150291,9144478057,Elevator Mechanic,421
+187,wpBot0187,Bahadurpura,Hyderabad,Telangana,8950484575,8241095376,Tile Setter,498
+188,wpBot0188,Bahadurpura,Hyderabad,Telangana,9035139194,8131803211,Tile Setter,494
+189,wpBot0189,Bahadurpura,Hyderabad,Telangana,7076238796,7583701028,Tile Setter,928
+190,wpBot0190,Bahadurpura,Hyderabad,Telangana,7720760383,7938798141,,877
+191,wpBot0191,Bahadurpura,Hyderabad,Telangana,8048601315,9318068994,,318
+192,wpBot0192,Bahadurpura,Hyderabad,Telangana,8177394673,7535991158,,798
+193,wpBot0193,Bahadurpura,Hyderabad,Telangana,8699546267,9387805672,,357
+194,wpBot0194,Bahadurpura,Hyderabad,Telangana,7236084538,7633235789,,945
+195,wpBot0195,Bahadurpura,Hyderabad,Telangana,9033313971,9147939277,,462
+196,wpBot0196,Bahadurpura,Hyderabad,Telangana,8367440379,9636324059,,855
+197,wpBot0197,Bahadurpura,Hyderabad,Telangana,9923765741,8530280093,,491
+198,wpBot0198,Bahadurpura,Hyderabad,Telangana,7820087976,7178629504,,935
+199,wpBot0199,Bahadurpura,Hyderabad,Telangana,9466188146,8093617415,,615
+200,wpBot0200,Bahadurpura,Hyderabad,Telangana,9500249740,8760541751,,510
+201,wpBot0201,Bahadurpura,Hyderabad,Telangana,9049751627,8369560884,,312
+202,wpBot0202,Bahadurpura,Hyderabad,Telangana,8466771633,8637318710,,171
+203,wpBot0203,Bahadurpura,Hyderabad,Telangana,8658996381,8412173868,,918
+204,wpBot0204,Bahadurpura,Hyderabad,Telangana,9233702566,7741889619,,376
+205,wpBot0205,Bahadurpura,Hyderabad,Telangana,8727548715,7383412338,,236
+206,wpBot0206,Bahadurpura,Hyderabad,Telangana,8630775134,8283993296,,561
+207,wpBot0207,Bahadurpura,Hyderabad,Telangana,7506647362,7291514239,,751
+208,wpBot0208,Bandlaguda,Hyderabad,Telangana,9668143809,7157723208,Carpenter,264
+209,wpBot0209,Bandlaguda,Hyderabad,Telangana,8834767021,7127857869,Carpenter,569
+210,wpBot0210,Bandlaguda,Hyderabad,Telangana,7283874820,9913552852,Carpenter,158
+211,wpBot0211,Bandlaguda,Hyderabad,Telangana,8872368903,7409940090,Electrician,317
+212,wpBot0212,Bandlaguda,Hyderabad,Telangana,7893922364,9719969505,Electrician,797
+213,wpBot0213,Bandlaguda,Hyderabad,Telangana,8617941661,7747120063,Electrician,144
+214,wpBot0214,Bandlaguda,Hyderabad,Telangana,7676496357,8723561874,Plumber,923
+215,wpBot0215,Bandlaguda,Hyderabad,Telangana,7897180631,9081832596,Plumber,671
+216,wpBot0216,Bandlaguda,Hyderabad,Telangana,7640554097,8968594510,Plumber,225
+217,wpBot0217,Bandlaguda,Hyderabad,Telangana,8926243769,7822771277,Painter,428
+218,wpBot0218,Bandlaguda,Hyderabad,Telangana,9602904693,9953435517,Painter,610
+219,wpBot0219,Bandlaguda,Hyderabad,Telangana,7660707368,8863139799,Painter,819
+220,wpBot0220,Bandlaguda,Hyderabad,Telangana,8759287192,7935424454,Glazier,204
+221,wpBot0221,Bandlaguda,Hyderabad,Telangana,8335922121,7475448713,Glazier,520
+222,wpBot0222,Bandlaguda,Hyderabad,Telangana,7076049174,9892445691,Glazier,450
+223,wpBot0223,Bandlaguda,Hyderabad,Telangana,7176371160,7933328807,Mason & Concrete Finisher,555
+224,wpBot0224,Bandlaguda,Hyderabad,Telangana,7376114595,8125090007,Mason & Concrete Finisher,279
+225,wpBot0225,Bandlaguda,Hyderabad,Telangana,8897673871,7870548720,Mason & Concrete Finisher,322
+226,wpBot0226,Bandlaguda,Hyderabad,Telangana,7591687285,7526897710,Brick Mason,197
+227,wpBot0227,Bandlaguda,Hyderabad,Telangana,7797630836,9433535870,Brick Mason,445
+228,wpBot0228,Bandlaguda,Hyderabad,Telangana,9311353761,9714606504,Brick Mason,191
+229,wpBot0229,Bandlaguda,Hyderabad,Telangana,7794962648,8421192507,Dry Wall Installer,851
+230,wpBot0230,Bandlaguda,Hyderabad,Telangana,8966792733,8165392611,Dry Wall Installer,902
+231,wpBot0231,Bandlaguda,Hyderabad,Telangana,8489638065,9827312598,Dry Wall Installer,803
+232,wpBot0232,Bandlaguda,Hyderabad,Telangana,7460849706,9782495591,Welder,354
+233,wpBot0233,Bandlaguda,Hyderabad,Telangana,7408901784,7073669812,Welder,951
+234,wpBot0234,Bandlaguda,Hyderabad,Telangana,7539860736,8043128310,Welder,404
+235,wpBot0235,Bandlaguda,Hyderabad,Telangana,9298830511,7080610687,Elevator Mechanic,818
+236,wpBot0236,Bandlaguda,Hyderabad,Telangana,7412813808,9831124314,Elevator Mechanic,877
+237,wpBot0237,Bandlaguda,Hyderabad,Telangana,7753534206,8482495568,Elevator Mechanic,610
+238,wpBot0238,Bandlaguda,Hyderabad,Telangana,8020787196,9720783505,Tile Setter,118
+239,wpBot0239,Bandlaguda,Hyderabad,Telangana,8318055923,8404432317,Tile Setter,945
+240,wpBot0240,Bandlaguda,Hyderabad,Telangana,8811368903,8537189596,Tile Setter,547
+241,wpBot0241,Bandlaguda,Hyderabad,Telangana,9013544127,8993134293,,225
+242,wpBot0242,Bandlaguda,Hyderabad,Telangana,8890698961,9359364096,,386
+243,wpBot0243,Bandlaguda,Hyderabad,Telangana,8145463359,8680540833,,573
+244,wpBot0244,Bandlaguda,Hyderabad,Telangana,8207353513,7907497805,,316
+245,wpBot0245,Bandlaguda,Hyderabad,Telangana,7813071709,9810075575,,633
+246,wpBot0246,Bandlaguda,Hyderabad,Telangana,8619392790,7747273339,,369
+247,wpBot0247,Bandlaguda,Hyderabad,Telangana,8808474321,9289810166,,422
+248,wpBot0248,Bandlaguda,Hyderabad,Telangana,7767312636,7240610536,,922
+249,wpBot0249,Bandlaguda,Hyderabad,Telangana,7318106018,9238006149,,910
+250,wpBot0250,Bandlaguda,Hyderabad,Telangana,9320002433,8271122735,,379
+251,wpBot0251,Bandlaguda,Hyderabad,Telangana,9320422630,7221542737,,967
+252,wpBot0252,Bandlaguda,Hyderabad,Telangana,8865464323,9009496619,,740
+253,wpBot0253,Bandlaguda,Hyderabad,Telangana,8405904212,7569531114,,395
+254,wpBot0254,Bandlaguda,Hyderabad,Telangana,9912103133,7082764854,,164
+255,wpBot0255,Bandlaguda,Hyderabad,Telangana,9874334817,7077016719,,628
+256,wpBot0256,Bandlaguda,Hyderabad,Telangana,8775625848,9702506910,,783
+257,wpBot0257,Bandlaguda,Hyderabad,Telangana,9242889821,8024177938,,437
+258,wpBot0258,Bandlaguda,Hyderabad,Telangana,7157260162,9761028697,,440
+259,wpBot0259,Charminar,Hyderabad,Telangana,9705362348,7527432827,Carpenter,227
+260,wpBot0260,Charminar,Hyderabad,Telangana,9631321355,9853725293,Carpenter,312
+261,wpBot0261,Charminar,Hyderabad,Telangana,9401783330,7847088795,Carpenter,274
+262,wpBot0262,Charminar,Hyderabad,Telangana,7197535522,7809157468,Electrician,703
+263,wpBot0263,Charminar,Hyderabad,Telangana,7646058990,9909735090,Electrician,149
+264,wpBot0264,Charminar,Hyderabad,Telangana,9466207833,9580881390,Electrician,259
+265,wpBot0265,Charminar,Hyderabad,Telangana,7769433118,8519208189,Plumber,966
+266,wpBot0266,Charminar,Hyderabad,Telangana,7255577286,9720979083,Plumber,208
+267,wpBot0267,Charminar,Hyderabad,Telangana,7418319675,7619582773,Plumber,674
+268,wpBot0268,Charminar,Hyderabad,Telangana,9559024290,7188267716,Painter,136
+269,wpBot0269,Charminar,Hyderabad,Telangana,8524687238,9468898621,Painter,100
+270,wpBot0270,Charminar,Hyderabad,Telangana,8574230099,9649633118,Painter,159
+271,wpBot0271,Charminar,Hyderabad,Telangana,9110057882,8960157696,Glazier,793
+272,wpBot0272,Charminar,Hyderabad,Telangana,7228134572,8609367184,Glazier,489
+273,wpBot0273,Charminar,Hyderabad,Telangana,8973654867,8350384706,Glazier,274
+274,wpBot0274,Charminar,Hyderabad,Telangana,7168901505,9198439276,Mason & Concrete Finisher,237
+275,wpBot0275,Charminar,Hyderabad,Telangana,8670069119,8534510348,Mason & Concrete Finisher,984
+276,wpBot0276,Charminar,Hyderabad,Telangana,9528888793,7107544318,Mason & Concrete Finisher,460
+277,wpBot0277,Charminar,Hyderabad,Telangana,9930798117,9937551771,Brick Mason,853
+278,wpBot0278,Charminar,Hyderabad,Telangana,8577636060,8513544962,Brick Mason,126
+279,wpBot0279,Charminar,Hyderabad,Telangana,8137487739,7161003859,Brick Mason,662
+280,wpBot0280,Charminar,Hyderabad,Telangana,8882469891,7989783793,Dry Wall Installer,449
+281,wpBot0281,Charminar,Hyderabad,Telangana,9280026242,8927781882,Dry Wall Installer,611
+282,wpBot0282,Charminar,Hyderabad,Telangana,7029144989,9679159607,Dry Wall Installer,893
+283,wpBot0283,Charminar,Hyderabad,Telangana,9261199465,9500983282,Welder,322
+284,wpBot0284,Charminar,Hyderabad,Telangana,8662541859,9779919255,Welder,660
+285,wpBot0285,Charminar,Hyderabad,Telangana,7831885382,8946688371,Welder,229
+286,wpBot0286,Charminar,Hyderabad,Telangana,9211587936,8012333657,Elevator Mechanic,851
+287,wpBot0287,Charminar,Hyderabad,Telangana,7772513976,9756252030,Elevator Mechanic,907
+288,wpBot0288,Charminar,Hyderabad,Telangana,7838335303,9967046326,Elevator Mechanic,250
+289,wpBot0289,Charminar,Hyderabad,Telangana,7463265767,7266943030,Tile Setter,372
+290,wpBot0290,Charminar,Hyderabad,Telangana,9063003669,7299796584,Tile Setter,140
+291,wpBot0291,Charminar,Hyderabad,Telangana,8851834204,7875087127,Tile Setter,288
+292,wpBot0292,Charminar,Hyderabad,Telangana,7318648795,9091426007,,743
+293,wpBot0293,Charminar,Hyderabad,Telangana,8718766544,7529341123,,201
+294,wpBot0294,Charminar,Hyderabad,Telangana,8614137484,9642343847,,174
+295,wpBot0295,Charminar,Hyderabad,Telangana,8951539799,8669549882,,927
+296,wpBot0296,Charminar,Hyderabad,Telangana,9028391692,9851315195,,554
+297,wpBot0297,Charminar,Hyderabad,Telangana,8127072793,9601565806,,419
+298,wpBot0298,Charminar,Hyderabad,Telangana,9435174835,9387364604,,293
+299,wpBot0299,Charminar,Hyderabad,Telangana,8593928764,9250193801,,171
+300,wpBot0300,Charminar,Hyderabad,Telangana,8584279940,7663171701,,274
+301,wpBot0301,Charminar,Hyderabad,Telangana,8152948064,9942605006,,385
+302,wpBot0302,Charminar,Hyderabad,Telangana,9719997749,7934086801,,119
+303,wpBot0303,Charminar,Hyderabad,Telangana,9179668774,8620445470,,848
+304,wpBot0304,Charminar,Hyderabad,Telangana,7610168350,8268644753,,598
+305,wpBot0305,Charminar,Hyderabad,Telangana,9772131024,9486595167,,847
+306,wpBot0306,Charminar,Hyderabad,Telangana,7526357532,8563953668,,686
+307,wpBot0307,Charminar,Hyderabad,Telangana,8801781886,7586682815,,149
+308,wpBot0308,Charminar,Hyderabad,Telangana,8982054802,7173964804,,850
+309,wpBot0309,Charminar,Hyderabad,Telangana,9692396180,8571093340,,931
+310,wpBot0310,Golkonda,Hyderabad,Telangana,7612278311,8122897063,Carpenter,670
+311,wpBot0311,Golkonda,Hyderabad,Telangana,8521911496,7779391330,Carpenter,529
+312,wpBot0312,Golkonda,Hyderabad,Telangana,9998219217,8419716224,Carpenter,846
+313,wpBot0313,Golkonda,Hyderabad,Telangana,9326043468,9400614626,Electrician,780
+314,wpBot0314,Golkonda,Hyderabad,Telangana,8524724711,9969305960,Electrician,820
+315,wpBot0315,Golkonda,Hyderabad,Telangana,8567236731,8721109994,Electrician,675
+316,wpBot0316,Golkonda,Hyderabad,Telangana,8782118356,8016044917,Plumber,486
+317,wpBot0317,Golkonda,Hyderabad,Telangana,8414590352,7029594078,Plumber,881
+318,wpBot0318,Golkonda,Hyderabad,Telangana,9186154741,7810872216,Plumber,355
+319,wpBot0319,Golkonda,Hyderabad,Telangana,7867281065,9497907273,Painter,855
+320,wpBot0320,Golkonda,Hyderabad,Telangana,9256055489,7910806471,Painter,605
+321,wpBot0321,Golkonda,Hyderabad,Telangana,7084629611,8019857222,Painter,988
+322,wpBot0322,Golkonda,Hyderabad,Telangana,7162797275,8931188133,Glazier,434
+323,wpBot0323,Golkonda,Hyderabad,Telangana,7004302005,7388244255,Glazier,643
+324,wpBot0324,Golkonda,Hyderabad,Telangana,7492338054,8686668045,Glazier,506
+325,wpBot0325,Golkonda,Hyderabad,Telangana,7789379589,7298318607,Mason & Concrete Finisher,685
+326,wpBot0326,Golkonda,Hyderabad,Telangana,9508526745,9086643839,Mason & Concrete Finisher,488
+327,wpBot0327,Golkonda,Hyderabad,Telangana,8880369348,8122322175,Mason & Concrete Finisher,647
+328,wpBot0328,Golkonda,Hyderabad,Telangana,7058566598,8700004318,Brick Mason,676
+329,wpBot0329,Golkonda,Hyderabad,Telangana,9792637675,8326771949,Brick Mason,157
+330,wpBot0330,Golkonda,Hyderabad,Telangana,8448114483,7099945706,Brick Mason,388
+331,wpBot0331,Golkonda,Hyderabad,Telangana,9427040094,9913820842,Dry Wall Installer,382
+332,wpBot0332,Golkonda,Hyderabad,Telangana,7237905584,9488241450,Dry Wall Installer,114
+333,wpBot0333,Golkonda,Hyderabad,Telangana,8770533906,8208360889,Dry Wall Installer,872
+334,wpBot0334,Golkonda,Hyderabad,Telangana,7802476382,8641443216,Welder,366
+335,wpBot0335,Golkonda,Hyderabad,Telangana,7133937417,7122488793,Welder,772
+336,wpBot0336,Golkonda,Hyderabad,Telangana,9400771217,8841590624,Welder,422
+337,wpBot0337,Golkonda,Hyderabad,Telangana,7780285585,8857633451,Elevator Mechanic,729
+338,wpBot0338,Golkonda,Hyderabad,Telangana,8281856692,7702151543,Elevator Mechanic,819
+339,wpBot0339,Golkonda,Hyderabad,Telangana,8017533046,8499666100,Elevator Mechanic,753
+340,wpBot0340,Golkonda,Hyderabad,Telangana,8190400921,8141475427,Tile Setter,731
+341,wpBot0341,Golkonda,Hyderabad,Telangana,9233002126,9303715793,Tile Setter,273
+342,wpBot0342,Golkonda,Hyderabad,Telangana,9352716513,7647065633,Tile Setter,287
+343,wpBot0343,Golkonda,Hyderabad,Telangana,7300474824,9900484985,,318
+344,wpBot0344,Golkonda,Hyderabad,Telangana,9024750313,8571486103,,708
+345,wpBot0345,Golkonda,Hyderabad,Telangana,9914303790,7862933160,,182
+346,wpBot0346,Golkonda,Hyderabad,Telangana,7594866571,9007022922,,467
+347,wpBot0347,Golkonda,Hyderabad,Telangana,9257661732,8472811834,,748
+348,wpBot0348,Golkonda,Hyderabad,Telangana,7884971623,9760324123,,726
+349,wpBot0349,Golkonda,Hyderabad,Telangana,7547007538,8974121820,,349
+350,wpBot0350,Golkonda,Hyderabad,Telangana,8641202998,7279017201,,160
+351,wpBot0351,Golkonda,Hyderabad,Telangana,7236955256,7662999292,,183
+352,wpBot0352,Golkonda,Hyderabad,Telangana,9818428795,9685043252,,258
+353,wpBot0353,Golkonda,Hyderabad,Telangana,8890460250,8487996374,,438
+354,wpBot0354,Golkonda,Hyderabad,Telangana,7473394926,9917640077,,168
+355,wpBot0355,Golkonda,Hyderabad,Telangana,7345810540,8381004274,,731
+356,wpBot0356,Golkonda,Hyderabad,Telangana,7613570383,7435013505,,111
+357,wpBot0357,Golkonda,Hyderabad,Telangana,9566165551,8851700427,,388
+358,wpBot0358,Golkonda,Hyderabad,Telangana,8451835767,9926043351,,825
+359,wpBot0359,Golkonda,Hyderabad,Telangana,7830212772,8785434749,,918
+360,wpBot0360,Golkonda,Hyderabad,Telangana,9560279745,9659448644,,945
+361,wpBot0361,Himayathnagar,Hyderabad,Telangana,9248847617,7510055358,Carpenter,394
+362,wpBot0362,Himayathnagar,Hyderabad,Telangana,8500788452,9917351829,Carpenter,338
+363,wpBot0363,Himayathnagar,Hyderabad,Telangana,7264440550,9227154840,Carpenter,704
+364,wpBot0364,Himayathnagar,Hyderabad,Telangana,9710982594,7521827756,Electrician,799
+365,wpBot0365,Himayathnagar,Hyderabad,Telangana,7141875900,7025052356,Electrician,977
+366,wpBot0366,Himayathnagar,Hyderabad,Telangana,8267378570,9490281805,Electrician,355
+367,wpBot0367,Himayathnagar,Hyderabad,Telangana,7058493589,9757045793,Plumber,269
+368,wpBot0368,Himayathnagar,Hyderabad,Telangana,7262496061,9174297599,Plumber,791
+369,wpBot0369,Himayathnagar,Hyderabad,Telangana,9126526611,7656423150,Plumber,100
+370,wpBot0370,Himayathnagar,Hyderabad,Telangana,8092777650,7600950922,Painter,828
+371,wpBot0371,Himayathnagar,Hyderabad,Telangana,7373751062,7154425341,Painter,532
+372,wpBot0372,Himayathnagar,Hyderabad,Telangana,8193496347,9383847288,Painter,370
+373,wpBot0373,Himayathnagar,Hyderabad,Telangana,8268489446,7033085642,Glazier,155
+374,wpBot0374,Himayathnagar,Hyderabad,Telangana,8790967065,7702872975,Glazier,456
+375,wpBot0375,Himayathnagar,Hyderabad,Telangana,9091167295,7668938755,Glazier,576
+376,wpBot0376,Himayathnagar,Hyderabad,Telangana,9672634120,8807628754,Mason & Concrete Finisher,613
+377,wpBot0377,Himayathnagar,Hyderabad,Telangana,9572961150,9928195980,Mason & Concrete Finisher,395
+378,wpBot0378,Himayathnagar,Hyderabad,Telangana,8358188449,7082864322,Mason & Concrete Finisher,653
+379,wpBot0379,Himayathnagar,Hyderabad,Telangana,8889751734,8706678553,Brick Mason,719
+380,wpBot0380,Himayathnagar,Hyderabad,Telangana,9602853866,9367903486,Brick Mason,875
+381,wpBot0381,Himayathnagar,Hyderabad,Telangana,8536904413,8789701415,Brick Mason,188
+382,wpBot0382,Himayathnagar,Hyderabad,Telangana,8333184892,8008198832,Dry Wall Installer,741
+383,wpBot0383,Himayathnagar,Hyderabad,Telangana,9206135390,8512715667,Dry Wall Installer,654
+384,wpBot0384,Himayathnagar,Hyderabad,Telangana,9938602171,7262279208,Dry Wall Installer,321
+385,wpBot0385,Himayathnagar,Hyderabad,Telangana,7654345322,9961060774,Welder,207
+386,wpBot0386,Himayathnagar,Hyderabad,Telangana,8704463043,8653449498,Welder,865
+387,wpBot0387,Himayathnagar,Hyderabad,Telangana,8796039641,9802481016,Welder,606
+388,wpBot0388,Himayathnagar,Hyderabad,Telangana,9533865191,8972123724,Elevator Mechanic,578
+389,wpBot0389,Himayathnagar,Hyderabad,Telangana,8576178500,7418886906,Elevator Mechanic,578
+390,wpBot0390,Himayathnagar,Hyderabad,Telangana,9783339384,8847345133,Elevator Mechanic,231
+391,wpBot0391,Himayathnagar,Hyderabad,Telangana,8425360636,8844259557,Tile Setter,487
+392,wpBot0392,Himayathnagar,Hyderabad,Telangana,8991533261,9356109322,Tile Setter,694
+393,wpBot0393,Himayathnagar,Hyderabad,Telangana,7793815846,7545009371,Tile Setter,709
+394,wpBot0394,Himayathnagar,Hyderabad,Telangana,8091537043,7185128312,,523
+395,wpBot0395,Himayathnagar,Hyderabad,Telangana,7191866075,8693967339,,244
+396,wpBot0396,Himayathnagar,Hyderabad,Telangana,8988802174,8823613686,,528
+397,wpBot0397,Himayathnagar,Hyderabad,Telangana,9693934725,7117341331,,734
+398,wpBot0398,Himayathnagar,Hyderabad,Telangana,8426466060,9719683907,,564
+399,wpBot0399,Himayathnagar,Hyderabad,Telangana,7217825077,8333670804,,317
+400,wpBot0400,Himayathnagar,Hyderabad,Telangana,9947302928,7410412605,,248
+401,wpBot0401,Himayathnagar,Hyderabad,Telangana,7526871797,8895863372,,785
+402,wpBot0402,Himayathnagar,Hyderabad,Telangana,7887610933,8376165487,,488
+403,wpBot0403,Himayathnagar,Hyderabad,Telangana,9028717939,7167527136,,708
+404,wpBot0404,Himayathnagar,Hyderabad,Telangana,7025708849,9907809526,,598
+405,wpBot0405,Himayathnagar,Hyderabad,Telangana,8759347480,9193679250,,516
+406,wpBot0406,Himayathnagar,Hyderabad,Telangana,8192639034,9380459151,,826
+407,wpBot0407,Himayathnagar,Hyderabad,Telangana,7506499973,8922187175,,615
+408,wpBot0408,Himayathnagar,Hyderabad,Telangana,8229274002,8437146383,,476
+409,wpBot0409,Himayathnagar,Hyderabad,Telangana,8658337674,7324029014,,700
+410,wpBot0410,Himayathnagar,Hyderabad,Telangana,9961223739,9781529092,,899
+411,wpBot0411,Himayathnagar,Hyderabad,Telangana,8029557382,8629590781,,563
+412,wpBot0412,Nampally,Hyderabad,Telangana,9559824025,8922565454,Carpenter,678
+413,wpBot0413,Nampally,Hyderabad,Telangana,8699826705,7746368326,Carpenter,298
+414,wpBot0414,Nampally,Hyderabad,Telangana,7279596119,9314571976,Carpenter,282
+415,wpBot0415,Nampally,Hyderabad,Telangana,9572709793,9113144187,Electrician,989
+416,wpBot0416,Nampally,Hyderabad,Telangana,9416407876,9106699577,Electrician,440
+417,wpBot0417,Nampally,Hyderabad,Telangana,7076063129,8825587789,Electrician,824
+418,wpBot0418,Nampally,Hyderabad,Telangana,8041147375,8373024927,Plumber,360
+419,wpBot0419,Nampally,Hyderabad,Telangana,9007720928,7297908114,Plumber,190
+420,wpBot0420,Nampally,Hyderabad,Telangana,8395354022,9969040472,Plumber,273
+421,wpBot0421,Nampally,Hyderabad,Telangana,7334549271,8065372832,Painter,446
+422,wpBot0422,Nampally,Hyderabad,Telangana,7625650500,8176293495,Painter,210
+423,wpBot0423,Nampally,Hyderabad,Telangana,7715450220,8727741509,Painter,215
+424,wpBot0424,Nampally,Hyderabad,Telangana,7535779506,8001294595,Glazier,389
+425,wpBot0425,Nampally,Hyderabad,Telangana,7315416792,7317282756,Glazier,585
+426,wpBot0426,Nampally,Hyderabad,Telangana,8999093987,8848865752,Glazier,369
+427,wpBot0427,Nampally,Hyderabad,Telangana,8098340041,9053119008,Mason & Concrete Finisher,855
+428,wpBot0428,Nampally,Hyderabad,Telangana,7371383458,9782558860,Mason & Concrete Finisher,206
+429,wpBot0429,Nampally,Hyderabad,Telangana,9657437192,9839121665,Mason & Concrete Finisher,754
+430,wpBot0430,Nampally,Hyderabad,Telangana,8435639721,8066652571,Brick Mason,594
+431,wpBot0431,Nampally,Hyderabad,Telangana,9648401115,8867348874,Brick Mason,799
+432,wpBot0432,Nampally,Hyderabad,Telangana,8955456253,7360763354,Brick Mason,411
+433,wpBot0433,Nampally,Hyderabad,Telangana,8764163103,9459076163,Dry Wall Installer,292
+434,wpBot0434,Nampally,Hyderabad,Telangana,7161312081,9243401984,Dry Wall Installer,101
+435,wpBot0435,Nampally,Hyderabad,Telangana,7050808418,8352403693,Dry Wall Installer,822
+436,wpBot0436,Nampally,Hyderabad,Telangana,9360372415,8231975901,Welder,871
+437,wpBot0437,Nampally,Hyderabad,Telangana,9383135485,9928373615,Welder,909
+438,wpBot0438,Nampally,Hyderabad,Telangana,8815029564,9105432716,Welder,134
+439,wpBot0439,Nampally,Hyderabad,Telangana,9615951238,8874074293,Elevator Mechanic,445
+440,wpBot0440,Nampally,Hyderabad,Telangana,9192782017,7045907319,Elevator Mechanic,640
+441,wpBot0441,Nampally,Hyderabad,Telangana,9103525447,7429932527,Elevator Mechanic,855
+442,wpBot0442,Nampally,Hyderabad,Telangana,9094758106,7929824477,Tile Setter,533
+443,wpBot0443,Nampally,Hyderabad,Telangana,9751866917,9961705346,Tile Setter,203
+444,wpBot0444,Nampally,Hyderabad,Telangana,9007082270,7913670762,Tile Setter,307
+445,wpBot0445,Nampally,Hyderabad,Telangana,9746124018,8904897093,,574
+446,wpBot0446,Nampally,Hyderabad,Telangana,8193744342,9653083209,,483
+447,wpBot0447,Nampally,Hyderabad,Telangana,8983470319,7524670010,,516
+448,wpBot0448,Nampally,Hyderabad,Telangana,8342595397,9338193887,,531
+449,wpBot0449,Nampally,Hyderabad,Telangana,8210456771,7757356644,,224
+450,wpBot0450,Nampally,Hyderabad,Telangana,9110920457,8511527391,,382
+451,wpBot0451,Nampally,Hyderabad,Telangana,7413967667,8350415267,,642
+452,wpBot0452,Nampally,Hyderabad,Telangana,9108143322,7770120595,,124
+453,wpBot0453,Nampally,Hyderabad,Telangana,8479845977,8403815877,,967
+454,wpBot0454,Nampally,Hyderabad,Telangana,9584874583,7860993359,,508
+455,wpBot0455,Nampally,Hyderabad,Telangana,9489962609,7406516737,,447
+456,wpBot0456,Nampally,Hyderabad,Telangana,7591701052,7109187113,,166
+457,wpBot0457,Nampally,Hyderabad,Telangana,7463039680,7729590416,,717
+458,wpBot0458,Nampally,Hyderabad,Telangana,8154602601,7222363696,,867
+459,wpBot0459,Nampally,Hyderabad,Telangana,9915308965,7290574981,,113
+460,wpBot0460,Nampally,Hyderabad,Telangana,7748734057,8140426517,,111
+461,wpBot0461,Nampally,Hyderabad,Telangana,7978365602,7221519302,,119
+462,wpBot0462,Nampally,Hyderabad,Telangana,8512932522,7166835752,,557
+463,wpBot0463,Saidabad,Hyderabad,Telangana,8600875674,7262031357,Carpenter,372
+464,wpBot0464,Saidabad,Hyderabad,Telangana,8328518833,7192837761,Carpenter,805
+465,wpBot0465,Saidabad,Hyderabad,Telangana,9610227695,9358208471,Carpenter,647
+466,wpBot0466,Saidabad,Hyderabad,Telangana,8522092396,9005757782,Electrician,346
+467,wpBot0467,Saidabad,Hyderabad,Telangana,8749610530,9191528989,Electrician,815
+468,wpBot0468,Saidabad,Hyderabad,Telangana,9153277792,7384432014,Electrician,798
+469,wpBot0469,Saidabad,Hyderabad,Telangana,9115722979,7451005098,Plumber,908
+470,wpBot0470,Saidabad,Hyderabad,Telangana,7045754728,8434161855,Plumber,175
+471,wpBot0471,Saidabad,Hyderabad,Telangana,7082417160,8342751176,Plumber,383
+472,wpBot0472,Saidabad,Hyderabad,Telangana,9990882247,9238598926,Painter,106
+473,wpBot0473,Saidabad,Hyderabad,Telangana,8784412551,7115444171,Painter,404
+474,wpBot0474,Saidabad,Hyderabad,Telangana,7092105090,9735402623,Painter,891
+475,wpBot0475,Saidabad,Hyderabad,Telangana,9774565353,7594728296,Glazier,733
+476,wpBot0476,Saidabad,Hyderabad,Telangana,7898180489,7591677254,Glazier,571
+477,wpBot0477,Saidabad,Hyderabad,Telangana,8521659807,8886317576,Glazier,176
+478,wpBot0478,Saidabad,Hyderabad,Telangana,9612709929,8941371853,Mason & Concrete Finisher,567
+479,wpBot0479,Saidabad,Hyderabad,Telangana,9375562971,9389216172,Mason & Concrete Finisher,446
+480,wpBot0480,Saidabad,Hyderabad,Telangana,7727441935,8533867931,Mason & Concrete Finisher,712
+481,wpBot0481,Saidabad,Hyderabad,Telangana,7174541352,7844180468,Brick Mason,721
+482,wpBot0482,Saidabad,Hyderabad,Telangana,9151984306,7392056647,Brick Mason,563
+483,wpBot0483,Saidabad,Hyderabad,Telangana,9192936474,9265728958,Brick Mason,486
+484,wpBot0484,Saidabad,Hyderabad,Telangana,8950022596,8696235392,Dry Wall Installer,250
+485,wpBot0485,Saidabad,Hyderabad,Telangana,7817333650,9252319189,Dry Wall Installer,233
+486,wpBot0486,Saidabad,Hyderabad,Telangana,8076850714,9766497565,Dry Wall Installer,850
+487,wpBot0487,Saidabad,Hyderabad,Telangana,8905052253,7766169247,Welder,779
+488,wpBot0488,Saidabad,Hyderabad,Telangana,9926074711,8418531591,Welder,265
+489,wpBot0489,Saidabad,Hyderabad,Telangana,9937327144,8832672868,Welder,157
+490,wpBot0490,Saidabad,Hyderabad,Telangana,7644981008,8998269997,Elevator Mechanic,825
+491,wpBot0491,Saidabad,Hyderabad,Telangana,8373820708,9032797494,Elevator Mechanic,277
+492,wpBot0492,Saidabad,Hyderabad,Telangana,7688832114,8865158455,Elevator Mechanic,541
+493,wpBot0493,Saidabad,Hyderabad,Telangana,8806545666,8170772947,Tile Setter,899
+494,wpBot0494,Saidabad,Hyderabad,Telangana,9032415288,8351751849,Tile Setter,849
+495,wpBot0495,Saidabad,Hyderabad,Telangana,8624601610,8703815928,Tile Setter,639
+496,wpBot0496,Saidabad,Hyderabad,Telangana,8553438060,8248113799,,126
+497,wpBot0497,Saidabad,Hyderabad,Telangana,9634362803,8469208298,,885
+498,wpBot0498,Saidabad,Hyderabad,Telangana,7771610047,8047867274,,779
+499,wpBot0499,Saidabad,Hyderabad,Telangana,9691000313,8516640204,,728
+500,wpBot0500,Saidabad,Hyderabad,Telangana,7749102141,8913326487,,270
+501,wpBot0501,Saidabad,Hyderabad,Telangana,9224531016,7696096507,,565
+502,wpBot0502,Saidabad,Hyderabad,Telangana,8839394600,8866231934,,441
+503,wpBot0503,Saidabad,Hyderabad,Telangana,8087294966,9422202536,,517
+504,wpBot0504,Saidabad,Hyderabad,Telangana,7784001572,9207640217,,551
+505,wpBot0505,Saidabad,Hyderabad,Telangana,9889642758,9981232509,,215
+506,wpBot0506,Saidabad,Hyderabad,Telangana,7135824708,7522517122,,157
+507,wpBot0507,Saidabad,Hyderabad,Telangana,9413233950,9817731031,,720
+508,wpBot0508,Saidabad,Hyderabad,Telangana,7518974818,8804857775,,101
+509,wpBot0509,Saidabad,Hyderabad,Telangana,8808894527,7219954590,,763
+510,wpBot0510,Saidabad,Hyderabad,Telangana,7151511981,9268883202,,347
+511,wpBot0511,Saidabad,Hyderabad,Telangana,8578860023,9731753890,,595
+512,wpBot0512,Saidabad,Hyderabad,Telangana,8156140422,9226224681,,636
+513,wpBot0513,Saidabad,Hyderabad,Telangana,7721655943,8127316087,,510
+514,wpBot0514,Ameerpet,Hyderabad,Telangana,9089445316,7097872550,Carpenter,892
+515,wpBot0515,Ameerpet,Hyderabad,Telangana,9189537252,8832712118,Carpenter,223
+516,wpBot0516,Ameerpet,Hyderabad,Telangana,7043294453,9457925059,Carpenter,820
+517,wpBot0517,Ameerpet,Hyderabad,Telangana,8529050370,7260538041,Electrician,244
+518,wpBot0518,Ameerpet,Hyderabad,Telangana,8462016146,7158773472,Electrician,455
+519,wpBot0519,Ameerpet,Hyderabad,Telangana,7331334733,8948946681,Electrician,358
+520,wpBot0520,Ameerpet,Hyderabad,Telangana,8992799782,9061308567,Plumber,1000
+521,wpBot0521,Ameerpet,Hyderabad,Telangana,9623244417,7271809199,Plumber,747
+522,wpBot0522,Ameerpet,Hyderabad,Telangana,7403662092,7903547896,Plumber,253
+523,wpBot0523,Ameerpet,Hyderabad,Telangana,7070776021,8339078994,Painter,590
+524,wpBot0524,Ameerpet,Hyderabad,Telangana,8455339922,8250075092,Painter,529
+525,wpBot0525,Ameerpet,Hyderabad,Telangana,8675801144,9884310556,Painter,371
+526,wpBot0526,Ameerpet,Hyderabad,Telangana,8030955770,7373965492,Glazier,151
+527,wpBot0527,Ameerpet,Hyderabad,Telangana,7763815100,9021784291,Glazier,518
+528,wpBot0528,Ameerpet,Hyderabad,Telangana,7638374149,9921433139,Glazier,138
+529,wpBot0529,Ameerpet,Hyderabad,Telangana,9602780019,7248698126,Mason & Concrete Finisher,134
+530,wpBot0530,Ameerpet,Hyderabad,Telangana,9199918734,9226854116,Mason & Concrete Finisher,518
+531,wpBot0531,Ameerpet,Hyderabad,Telangana,9177814806,8935114742,Mason & Concrete Finisher,235
+532,wpBot0532,Ameerpet,Hyderabad,Telangana,8617467312,7734320976,Brick Mason,390
+533,wpBot0533,Ameerpet,Hyderabad,Telangana,7085444137,9684311328,Brick Mason,249
+534,wpBot0534,Ameerpet,Hyderabad,Telangana,7966653175,9962995270,Brick Mason,836
+535,wpBot0535,Ameerpet,Hyderabad,Telangana,8596856408,8635898218,Dry Wall Installer,300
+536,wpBot0536,Ameerpet,Hyderabad,Telangana,7836522622,8558699626,Dry Wall Installer,948
+537,wpBot0537,Ameerpet,Hyderabad,Telangana,7644664961,7192126535,Dry Wall Installer,470
+538,wpBot0538,Ameerpet,Hyderabad,Telangana,7462384450,7914647396,Welder,157
+539,wpBot0539,Ameerpet,Hyderabad,Telangana,8138832919,7377182656,Welder,439
+540,wpBot0540,Ameerpet,Hyderabad,Telangana,8148574355,9598186779,Welder,540
+541,wpBot0541,Ameerpet,Hyderabad,Telangana,7362517523,8100416337,Elevator Mechanic,875
+542,wpBot0542,Ameerpet,Hyderabad,Telangana,8115407989,8540296039,Elevator Mechanic,870
+543,wpBot0543,Ameerpet,Hyderabad,Telangana,8516889975,8095506863,Elevator Mechanic,718
+544,wpBot0544,Ameerpet,Hyderabad,Telangana,9828387715,8344846679,Tile Setter,109
+545,wpBot0545,Ameerpet,Hyderabad,Telangana,7339873334,9544254876,Tile Setter,427
+546,wpBot0546,Ameerpet,Hyderabad,Telangana,8952198889,8905913721,Tile Setter,524
+547,wpBot0547,Ameerpet,Hyderabad,Telangana,7591037112,9407665950,,827
+548,wpBot0548,Ameerpet,Hyderabad,Telangana,8906313123,8282953260,,696
+549,wpBot0549,Ameerpet,Hyderabad,Telangana,7842671200,8404892800,,612
+550,wpBot0550,Ameerpet,Hyderabad,Telangana,9586889384,9568981449,,117
+551,wpBot0551,Ameerpet,Hyderabad,Telangana,9163663870,7713529663,,187
+552,wpBot0552,Ameerpet,Hyderabad,Telangana,8602536273,7382277860,,752
+553,wpBot0553,Ameerpet,Hyderabad,Telangana,8977395558,8149072755,,544
+554,wpBot0554,Ameerpet,Hyderabad,Telangana,8421099163,8403197773,,797
+555,wpBot0555,Ameerpet,Hyderabad,Telangana,9304066151,9045720859,,774
+556,wpBot0556,Ameerpet,Hyderabad,Telangana,9249786687,7384262860,,777
+557,wpBot0557,Ameerpet,Hyderabad,Telangana,7629218603,8048585686,,608
+558,wpBot0558,Ameerpet,Hyderabad,Telangana,7827424354,7327205972,,374
+559,wpBot0559,Ameerpet,Hyderabad,Telangana,8440383113,8641513703,,989
+560,wpBot0560,Ameerpet,Hyderabad,Telangana,8299100380,8275275977,,969
+561,wpBot0561,Ameerpet,Hyderabad,Telangana,9750735179,8526552880,,223
+562,wpBot0562,Ameerpet,Hyderabad,Telangana,9292244773,8251502216,,214
+563,wpBot0563,Ameerpet,Hyderabad,Telangana,8298896422,7386239805,,235
+564,wpBot0564,Ameerpet,Hyderabad,Telangana,8533265540,9596511040,,662
+565,wpBot0565,Khairtabad,Hyderabad,Telangana,9093358554,8805227739,Carpenter,220
+566,wpBot0566,Khairtabad,Hyderabad,Telangana,7013498785,9662012727,Carpenter,937
+567,wpBot0567,Khairtabad,Hyderabad,Telangana,9641181150,8525534741,Carpenter,257
+568,wpBot0568,Khairtabad,Hyderabad,Telangana,8062485758,9715312170,Electrician,457
+569,wpBot0569,Khairtabad,Hyderabad,Telangana,7996146271,8130162054,Electrician,802
+570,wpBot0570,Khairtabad,Hyderabad,Telangana,8410633567,7012538843,Electrician,255
+571,wpBot0571,Khairtabad,Hyderabad,Telangana,8513869495,8882500201,Plumber,646
+572,wpBot0572,Khairtabad,Hyderabad,Telangana,8257420468,7304026387,Plumber,406
+573,wpBot0573,Khairtabad,Hyderabad,Telangana,8434068002,9998244105,Plumber,915
+574,wpBot0574,Khairtabad,Hyderabad,Telangana,8177742194,8351983663,Painter,585
+575,wpBot0575,Khairtabad,Hyderabad,Telangana,7050117003,9603079358,Painter,743
+576,wpBot0576,Khairtabad,Hyderabad,Telangana,8139595171,7781885720,Painter,282
+577,wpBot0577,Khairtabad,Hyderabad,Telangana,8057288956,9508309460,Glazier,962
+578,wpBot0578,Khairtabad,Hyderabad,Telangana,8641982117,9325481906,Glazier,466
+579,wpBot0579,Khairtabad,Hyderabad,Telangana,7752025705,7572914342,Glazier,166
+580,wpBot0580,Khairtabad,Hyderabad,Telangana,7066411637,9615583077,Mason & Concrete Finisher,183
+581,wpBot0581,Khairtabad,Hyderabad,Telangana,9860384764,8904631873,Mason & Concrete Finisher,946
+582,wpBot0582,Khairtabad,Hyderabad,Telangana,9775779310,8952317429,Mason & Concrete Finisher,373
+583,wpBot0583,Khairtabad,Hyderabad,Telangana,9480110369,7104076606,Brick Mason,736
+584,wpBot0584,Khairtabad,Hyderabad,Telangana,7541480956,8885806761,Brick Mason,728
+585,wpBot0585,Khairtabad,Hyderabad,Telangana,8514581831,9574809165,Brick Mason,286
+586,wpBot0586,Khairtabad,Hyderabad,Telangana,7587227676,7422477029,Dry Wall Installer,610
+587,wpBot0587,Khairtabad,Hyderabad,Telangana,8362628695,7447117189,Dry Wall Installer,362
+588,wpBot0588,Khairtabad,Hyderabad,Telangana,7010560180,7387613314,Dry Wall Installer,563
+589,wpBot0589,Khairtabad,Hyderabad,Telangana,7544705556,8802924550,Welder,727
+590,wpBot0590,Khairtabad,Hyderabad,Telangana,8503142071,9900352257,Welder,1000
+591,wpBot0591,Khairtabad,Hyderabad,Telangana,9278526655,7879592101,Welder,786
+592,wpBot0592,Khairtabad,Hyderabad,Telangana,9284272637,8829489973,Elevator Mechanic,136
+593,wpBot0593,Khairtabad,Hyderabad,Telangana,9430145788,9531548794,Elevator Mechanic,583
+594,wpBot0594,Khairtabad,Hyderabad,Telangana,8707829912,8709101354,Elevator Mechanic,816
+595,wpBot0595,Khairtabad,Hyderabad,Telangana,9151056952,7191320262,Tile Setter,654
+596,wpBot0596,Khairtabad,Hyderabad,Telangana,7688979595,8810449273,Tile Setter,108
+597,wpBot0597,Khairtabad,Hyderabad,Telangana,7482918314,9264536265,Tile Setter,936
+598,wpBot0598,Khairtabad,Hyderabad,Telangana,8164602789,8840810725,,602
+599,wpBot0599,Khairtabad,Hyderabad,Telangana,8576843251,8675188509,,148
+600,wpBot0600,Khairtabad,Hyderabad,Telangana,7035540928,9412919279,,301
+601,wpBot0601,Khairtabad,Hyderabad,Telangana,8165995221,9276782231,,991
+602,wpBot0602,Khairtabad,Hyderabad,Telangana,7770698724,7567300879,,215
+603,wpBot0603,Khairtabad,Hyderabad,Telangana,8062391018,8198820720,,122
+604,wpBot0604,Khairtabad,Hyderabad,Telangana,8459782143,7765993603,,982
+605,wpBot0605,Khairtabad,Hyderabad,Telangana,7874093366,9164378677,,100
+606,wpBot0606,Khairtabad,Hyderabad,Telangana,9336874758,9649294328,,618
+607,wpBot0607,Khairtabad,Hyderabad,Telangana,7152091341,7869617373,,397
+608,wpBot0608,Khairtabad,Hyderabad,Telangana,8714382025,8347140225,,497
+609,wpBot0609,Khairtabad,Hyderabad,Telangana,8095800955,9844078709,,588
+610,wpBot0610,Khairtabad,Hyderabad,Telangana,7883604644,8857174466,,732
+611,wpBot0611,Khairtabad,Hyderabad,Telangana,8315215834,7227910757,,221
+612,wpBot0612,Khairtabad,Hyderabad,Telangana,7262290882,7994632696,,933
+613,wpBot0613,Khairtabad,Hyderabad,Telangana,9238846230,8211031633,,293
+614,wpBot0614,Khairtabad,Hyderabad,Telangana,8052065950,9890490838,,454
+615,wpBot0615,Khairtabad,Hyderabad,Telangana,7500667115,8542564046,,882
+616,wpBot0616,Marredpally,Hyderabad,Telangana,9549621736,7699667631,Carpenter,170
+617,wpBot0617,Marredpally,Hyderabad,Telangana,8260005833,8254684944,Carpenter,968
+618,wpBot0618,Marredpally,Hyderabad,Telangana,8041678538,7959033094,Carpenter,891
+619,wpBot0619,Marredpally,Hyderabad,Telangana,7245938045,9304898280,Electrician,225
+620,wpBot0620,Marredpally,Hyderabad,Telangana,9930805984,9813541405,Electrician,496
+621,wpBot0621,Marredpally,Hyderabad,Telangana,7564390255,7595400977,Electrician,475
+622,wpBot0622,Marredpally,Hyderabad,Telangana,9473318614,8306270150,Plumber,939
+623,wpBot0623,Marredpally,Hyderabad,Telangana,9281594413,9341358986,Plumber,427
+624,wpBot0624,Marredpally,Hyderabad,Telangana,9847449913,8666906478,Plumber,218
+625,wpBot0625,Marredpally,Hyderabad,Telangana,8006317196,8234509303,Painter,952
+626,wpBot0626,Marredpally,Hyderabad,Telangana,8060811186,9377270395,Painter,252
+627,wpBot0627,Marredpally,Hyderabad,Telangana,7594117964,9173217016,Painter,701
+628,wpBot0628,Marredpally,Hyderabad,Telangana,9278992312,9654932305,Glazier,185
+629,wpBot0629,Marredpally,Hyderabad,Telangana,9493001776,9304484894,Glazier,827
+630,wpBot0630,Marredpally,Hyderabad,Telangana,8592897241,8947921951,Glazier,772
+631,wpBot0631,Marredpally,Hyderabad,Telangana,8897259759,7478898277,Mason & Concrete Finisher,953
+632,wpBot0632,Marredpally,Hyderabad,Telangana,7681830890,9007236016,Mason & Concrete Finisher,272
+633,wpBot0633,Marredpally,Hyderabad,Telangana,7649842220,8390107330,Mason & Concrete Finisher,769
+634,wpBot0634,Marredpally,Hyderabad,Telangana,9668733641,9510441048,Brick Mason,908
+635,wpBot0635,Marredpally,Hyderabad,Telangana,8630461696,9689438893,Brick Mason,453
+636,wpBot0636,Marredpally,Hyderabad,Telangana,9596493397,8760140677,Brick Mason,373
+637,wpBot0637,Marredpally,Hyderabad,Telangana,7100022542,9558626129,Dry Wall Installer,200
+638,wpBot0638,Marredpally,Hyderabad,Telangana,8819998566,9246596798,Dry Wall Installer,598
+639,wpBot0639,Marredpally,Hyderabad,Telangana,8022086792,9726250284,Dry Wall Installer,199
+640,wpBot0640,Marredpally,Hyderabad,Telangana,9160097907,7974274379,Welder,529
+641,wpBot0641,Marredpally,Hyderabad,Telangana,8836811775,8761228126,Welder,635
+642,wpBot0642,Marredpally,Hyderabad,Telangana,8278128295,9617853292,Welder,695
+643,wpBot0643,Marredpally,Hyderabad,Telangana,8682401790,7049678683,Elevator Mechanic,696
+644,wpBot0644,Marredpally,Hyderabad,Telangana,8793296493,8232647236,Elevator Mechanic,418
+645,wpBot0645,Marredpally,Hyderabad,Telangana,8217157005,8468248397,Elevator Mechanic,265
+646,wpBot0646,Marredpally,Hyderabad,Telangana,9878936089,8632860891,Tile Setter,406
+647,wpBot0647,Marredpally,Hyderabad,Telangana,7841283585,7755741142,Tile Setter,551
+648,wpBot0648,Marredpally,Hyderabad,Telangana,9653052879,8408059030,Tile Setter,744
+649,wpBot0649,Marredpally,Hyderabad,Telangana,8829776506,7583681165,,821
+650,wpBot0650,Marredpally,Hyderabad,Telangana,7833421331,7939315267,,884
+651,wpBot0651,Marredpally,Hyderabad,Telangana,9909254503,7467891093,,415
+652,wpBot0652,Marredpally,Hyderabad,Telangana,9531676806,7145383622,,819
+653,wpBot0653,Marredpally,Hyderabad,Telangana,8053748801,9005091166,,553
+654,wpBot0654,Marredpally,Hyderabad,Telangana,8636777540,8463412490,,918
+655,wpBot0655,Marredpally,Hyderabad,Telangana,9750561870,9071823791,,643
+656,wpBot0656,Marredpally,Hyderabad,Telangana,9964152046,8702856574,,346
+657,wpBot0657,Marredpally,Hyderabad,Telangana,8012472764,9975176037,,208
+658,wpBot0658,Marredpally,Hyderabad,Telangana,7091958743,7892237055,,742
+659,wpBot0659,Marredpally,Hyderabad,Telangana,7590073477,8657474979,,101
+660,wpBot0660,Marredpally,Hyderabad,Telangana,7231791715,9225142806,,194
+661,wpBot0661,Marredpally,Hyderabad,Telangana,7213443900,7040908181,,720
+662,wpBot0662,Marredpally,Hyderabad,Telangana,7966334140,9003064330,,370
+663,wpBot0663,Marredpally,Hyderabad,Telangana,8622683405,9914423220,,866
+664,wpBot0664,Marredpally,Hyderabad,Telangana,8770101596,7340503288,,552
+665,wpBot0665,Marredpally,Hyderabad,Telangana,8795464821,9587706574,,641
+666,wpBot0666,Marredpally,Hyderabad,Telangana,8385636976,8168015812,,216
+667,wpBot0667,Musheerabad,Hyderabad,Telangana,8304883790,7690078116,Carpenter,834
+668,wpBot0668,Musheerabad,Hyderabad,Telangana,7492063807,9867003885,Carpenter,762
+669,wpBot0669,Musheerabad,Hyderabad,Telangana,8696102679,7420874933,Carpenter,362
+670,wpBot0670,Musheerabad,Hyderabad,Telangana,9621730500,7218412860,Electrician,204
+671,wpBot0671,Musheerabad,Hyderabad,Telangana,7479776398,8183451607,Electrician,481
+672,wpBot0672,Musheerabad,Hyderabad,Telangana,7822027309,8417888750,Electrician,494
+673,wpBot0673,Musheerabad,Hyderabad,Telangana,9310023619,7941601455,Plumber,794
+674,wpBot0674,Musheerabad,Hyderabad,Telangana,7882745004,9384260579,Plumber,161
+675,wpBot0675,Musheerabad,Hyderabad,Telangana,9794681162,8445418052,Plumber,841
+676,wpBot0676,Musheerabad,Hyderabad,Telangana,8701666311,9388045660,Painter,868
+677,wpBot0677,Musheerabad,Hyderabad,Telangana,7071091072,7568106489,Painter,403
+678,wpBot0678,Musheerabad,Hyderabad,Telangana,9770981795,7398801878,Painter,391
+679,wpBot0679,Musheerabad,Hyderabad,Telangana,9717609239,7727466452,Glazier,828
+680,wpBot0680,Musheerabad,Hyderabad,Telangana,7915540340,7640181515,Glazier,581
+681,wpBot0681,Musheerabad,Hyderabad,Telangana,9537055440,7797716370,Glazier,891
+682,wpBot0682,Musheerabad,Hyderabad,Telangana,8107898409,7075707244,Mason & Concrete Finisher,961
+683,wpBot0683,Musheerabad,Hyderabad,Telangana,7582968129,8628087726,Mason & Concrete Finisher,938
+684,wpBot0684,Musheerabad,Hyderabad,Telangana,9710892205,7340319225,Mason & Concrete Finisher,908
+685,wpBot0685,Musheerabad,Hyderabad,Telangana,9590076040,9398789135,Brick Mason,914
+686,wpBot0686,Musheerabad,Hyderabad,Telangana,8185627082,7015519562,Brick Mason,436
+687,wpBot0687,Musheerabad,Hyderabad,Telangana,7937115711,9798035161,Brick Mason,746
+688,wpBot0688,Musheerabad,Hyderabad,Telangana,9059329337,7251996855,Dry Wall Installer,359
+689,wpBot0689,Musheerabad,Hyderabad,Telangana,8315108654,7983448842,Dry Wall Installer,161
+690,wpBot0690,Musheerabad,Hyderabad,Telangana,7861377692,8744319844,Dry Wall Installer,100
+691,wpBot0691,Musheerabad,Hyderabad,Telangana,7123717809,7186539761,Welder,687
+692,wpBot0692,Musheerabad,Hyderabad,Telangana,8969996461,9263607530,Welder,168
+693,wpBot0693,Musheerabad,Hyderabad,Telangana,8679429097,8599311677,Welder,727
+694,wpBot0694,Musheerabad,Hyderabad,Telangana,8333272930,9075101836,Elevator Mechanic,892
+695,wpBot0695,Musheerabad,Hyderabad,Telangana,7837671659,7888132986,Elevator Mechanic,106
+696,wpBot0696,Musheerabad,Hyderabad,Telangana,8910284144,8746432891,Elevator Mechanic,663
+697,wpBot0697,Musheerabad,Hyderabad,Telangana,7939658796,8723521727,Tile Setter,769
+698,wpBot0698,Musheerabad,Hyderabad,Telangana,9248398803,9511679994,Tile Setter,409
+699,wpBot0699,Musheerabad,Hyderabad,Telangana,9961376586,7654551167,Tile Setter,356
+700,wpBot0700,Musheerabad,Hyderabad,Telangana,8667406220,8358466745,,122
+701,wpBot0701,Musheerabad,Hyderabad,Telangana,7755376652,9783119109,,334
+702,wpBot0702,Musheerabad,Hyderabad,Telangana,9273558762,7852700580,,113
+703,wpBot0703,Musheerabad,Hyderabad,Telangana,9076728850,8902173861,,571
+704,wpBot0704,Musheerabad,Hyderabad,Telangana,8309019302,7212078796,,448
+705,wpBot0705,Musheerabad,Hyderabad,Telangana,9032683857,8192472515,,867
+706,wpBot0706,Musheerabad,Hyderabad,Telangana,8533136678,9223453075,,691
+707,wpBot0707,Musheerabad,Hyderabad,Telangana,8363863947,7645126428,,173
+708,wpBot0708,Musheerabad,Hyderabad,Telangana,8757922800,9855829518,,458
+709,wpBot0709,Musheerabad,Hyderabad,Telangana,7415951081,9264504961,,219
+710,wpBot0710,Musheerabad,Hyderabad,Telangana,9268882544,9968269871,,966
+711,wpBot0711,Musheerabad,Hyderabad,Telangana,7583902375,7983769576,,941
+712,wpBot0712,Musheerabad,Hyderabad,Telangana,9917767137,8420040863,,742
+713,wpBot0713,Musheerabad,Hyderabad,Telangana,7526879959,7958005120,,384
+714,wpBot0714,Musheerabad,Hyderabad,Telangana,8537404321,7884608870,,369
+715,wpBot0715,Musheerabad,Hyderabad,Telangana,7631403964,8386729209,,526
+716,wpBot0716,Musheerabad,Hyderabad,Telangana,8718901432,7781247244,,351
+717,wpBot0717,Musheerabad,Hyderabad,Telangana,7189375823,7024415432,,954
+718,wpBot0718,Shaikpet,Hyderabad,Telangana,9110559497,8198715467,Carpenter,401
+719,wpBot0719,Shaikpet,Hyderabad,Telangana,7006783004,8147076360,Carpenter,346
+720,wpBot0720,Shaikpet,Hyderabad,Telangana,8430599929,9639449935,Carpenter,360
+721,wpBot0721,Shaikpet,Hyderabad,Telangana,8966930162,9460165163,Electrician,149
+722,wpBot0722,Shaikpet,Hyderabad,Telangana,9771784696,7991721093,Electrician,995
+723,wpBot0723,Shaikpet,Hyderabad,Telangana,7468568096,7799092954,Electrician,428
+724,wpBot0724,Shaikpet,Hyderabad,Telangana,8758318372,9418117301,Plumber,550
+725,wpBot0725,Shaikpet,Hyderabad,Telangana,9166488555,9378504819,Plumber,124
+726,wpBot0726,Shaikpet,Hyderabad,Telangana,7244941043,7886037098,Plumber,479
+727,wpBot0727,Shaikpet,Hyderabad,Telangana,8914177277,9179588054,Painter,386
+728,wpBot0728,Shaikpet,Hyderabad,Telangana,9663801228,8510987852,Painter,595
+729,wpBot0729,Shaikpet,Hyderabad,Telangana,7482268306,7831270423,Painter,801
+730,wpBot0730,Shaikpet,Hyderabad,Telangana,7631657788,9261510900,Glazier,247
+731,wpBot0731,Shaikpet,Hyderabad,Telangana,8234510409,8211525172,Glazier,699
+732,wpBot0732,Shaikpet,Hyderabad,Telangana,7346460851,7834217390,Glazier,419
+733,wpBot0733,Shaikpet,Hyderabad,Telangana,7012157253,9013678702,Mason & Concrete Finisher,891
+734,wpBot0734,Shaikpet,Hyderabad,Telangana,7375168632,8546928587,Mason & Concrete Finisher,321
+735,wpBot0735,Shaikpet,Hyderabad,Telangana,8326155185,7319974261,Mason & Concrete Finisher,889
+736,wpBot0736,Shaikpet,Hyderabad,Telangana,9277243720,7179600770,Brick Mason,305
+737,wpBot0737,Shaikpet,Hyderabad,Telangana,8146379556,9629331379,Brick Mason,302
+738,wpBot0738,Shaikpet,Hyderabad,Telangana,8767524137,9373658549,Brick Mason,347
+739,wpBot0739,Shaikpet,Hyderabad,Telangana,8955766870,7596386654,Dry Wall Installer,655
+740,wpBot0740,Shaikpet,Hyderabad,Telangana,8951338462,7722526019,Dry Wall Installer,748
+741,wpBot0741,Shaikpet,Hyderabad,Telangana,9066614737,7424905780,Dry Wall Installer,692
+742,wpBot0742,Shaikpet,Hyderabad,Telangana,9218694148,9842989466,Welder,708
+743,wpBot0743,Shaikpet,Hyderabad,Telangana,7867907961,7543274150,Welder,964
+744,wpBot0744,Shaikpet,Hyderabad,Telangana,8215377341,8501364716,Welder,602
+745,wpBot0745,Shaikpet,Hyderabad,Telangana,8825529490,8450418039,Elevator Mechanic,419
+746,wpBot0746,Shaikpet,Hyderabad,Telangana,7661899010,9839012004,Elevator Mechanic,952
+747,wpBot0747,Shaikpet,Hyderabad,Telangana,9532058407,7655785450,Elevator Mechanic,516
+748,wpBot0748,Shaikpet,Hyderabad,Telangana,7252082687,9816918395,Tile Setter,853
+749,wpBot0749,Shaikpet,Hyderabad,Telangana,8348372062,8527463868,Tile Setter,693
+750,wpBot0750,Shaikpet,Hyderabad,Telangana,8602692847,8621282475,Tile Setter,302
+751,wpBot0751,Shaikpet,Hyderabad,Telangana,9133595105,7195100129,,625
+752,wpBot0752,Shaikpet,Hyderabad,Telangana,8522108277,8062961167,,612
+753,wpBot0753,Shaikpet,Hyderabad,Telangana,9374587030,8980525226,,152
+754,wpBot0754,Shaikpet,Hyderabad,Telangana,9826717072,9721843103,,689
+755,wpBot0755,Shaikpet,Hyderabad,Telangana,8868079684,9128830764,,937
+756,wpBot0756,Shaikpet,Hyderabad,Telangana,7126854778,8690240709,,731
+757,wpBot0757,Shaikpet,Hyderabad,Telangana,9709102150,7353718091,,804
+758,wpBot0758,Shaikpet,Hyderabad,Telangana,9615009919,9675178056,,218
+759,wpBot0759,Shaikpet,Hyderabad,Telangana,9294732017,8716452120,,782
+760,wpBot0760,Shaikpet,Hyderabad,Telangana,8933030872,9082025253,,944
+761,wpBot0761,Shaikpet,Hyderabad,Telangana,7582850476,9143793668,,645
+762,wpBot0762,Shaikpet,Hyderabad,Telangana,8382855871,8270639551,,920
+763,wpBot0763,Shaikpet,Hyderabad,Telangana,7766122219,8935239273,,722
+764,wpBot0764,Shaikpet,Hyderabad,Telangana,7737839172,7211237404,,846
+765,wpBot0765,Shaikpet,Hyderabad,Telangana,8139911992,9196857473,,256
+766,wpBot0766,Shaikpet,Hyderabad,Telangana,8775820946,8583799355,,680
+767,wpBot0767,Shaikpet,Hyderabad,Telangana,8941316888,9814290495,,574
+768,wpBot0768,Shaikpet,Hyderabad,Telangana,7905489012,9656479143,,489
+769,wpBot0769,Trimulgherry,Hyderabad,Telangana,8399877156,8316073764,Carpenter,861
+770,wpBot0770,Trimulgherry,Hyderabad,Telangana,7401638405,9691215945,Carpenter,859
+771,wpBot0771,Trimulgherry,Hyderabad,Telangana,7168221879,7207063853,Carpenter,191
+772,wpBot0772,Trimulgherry,Hyderabad,Telangana,8894432646,9044038146,Electrician,303
+773,wpBot0773,Trimulgherry,Hyderabad,Telangana,8209492298,9737393672,Electrician,929
+774,wpBot0774,Trimulgherry,Hyderabad,Telangana,7606703851,7571280945,Electrician,227
+775,wpBot0775,Trimulgherry,Hyderabad,Telangana,8861602161,9595541108,Plumber,135
+776,wpBot0776,Trimulgherry,Hyderabad,Telangana,7445365681,7181401272,Plumber,665
+777,wpBot0777,Trimulgherry,Hyderabad,Telangana,7697241286,9675241968,Plumber,686
+778,wpBot0778,Trimulgherry,Hyderabad,Telangana,7961836624,7669297118,Painter,434
+779,wpBot0779,Trimulgherry,Hyderabad,Telangana,9901661704,8784254683,Painter,265
+780,wpBot0780,Trimulgherry,Hyderabad,Telangana,8434368859,7946892570,Painter,597
+781,wpBot0781,Trimulgherry,Hyderabad,Telangana,9002927990,9982056813,Glazier,718
+782,wpBot0782,Trimulgherry,Hyderabad,Telangana,8801454869,8959233418,Glazier,646
+783,wpBot0783,Trimulgherry,Hyderabad,Telangana,7921189271,8513440818,Glazier,137
+784,wpBot0784,Trimulgherry,Hyderabad,Telangana,8192236017,7802824609,Mason & Concrete Finisher,941
+785,wpBot0785,Trimulgherry,Hyderabad,Telangana,9290857164,7760912725,Mason & Concrete Finisher,324
+786,wpBot0786,Trimulgherry,Hyderabad,Telangana,7430062936,9838702082,Mason & Concrete Finisher,342
+787,wpBot0787,Trimulgherry,Hyderabad,Telangana,9418215589,7256942759,Brick Mason,522
+788,wpBot0788,Trimulgherry,Hyderabad,Telangana,8768573232,8396264662,Brick Mason,548
+789,wpBot0789,Trimulgherry,Hyderabad,Telangana,8313127388,9311580662,Brick Mason,216
+790,wpBot0790,Trimulgherry,Hyderabad,Telangana,8596583858,8226266103,Dry Wall Installer,454
+791,wpBot0791,Trimulgherry,Hyderabad,Telangana,9271539239,8288271230,Dry Wall Installer,609
+792,wpBot0792,Trimulgherry,Hyderabad,Telangana,8338363020,7968365907,Dry Wall Installer,173
+793,wpBot0793,Trimulgherry,Hyderabad,Telangana,9747390379,7998509030,Welder,773
+794,wpBot0794,Trimulgherry,Hyderabad,Telangana,7643408826,9609827639,Welder,133
+795,wpBot0795,Trimulgherry,Hyderabad,Telangana,9639502743,9917417757,Welder,878
+796,wpBot0796,Trimulgherry,Hyderabad,Telangana,9867643204,7382193618,Elevator Mechanic,271
+797,wpBot0797,Trimulgherry,Hyderabad,Telangana,7020561432,8977490013,Elevator Mechanic,340
+798,wpBot0798,Trimulgherry,Hyderabad,Telangana,9901325339,7802654100,Elevator Mechanic,318
+799,wpBot0799,Trimulgherry,Hyderabad,Telangana,8511917655,8055382677,Tile Setter,124
+800,wpBot0800,Trimulgherry,Hyderabad,Telangana,9428849606,7820286819,Tile Setter,619
+801,wpBot0801,Trimulgherry,Hyderabad,Telangana,7951509632,7467787078,Tile Setter,279
+802,wpBot0802,Trimulgherry,Hyderabad,Telangana,8862731224,7910453658,,884
+803,wpBot0803,Trimulgherry,Hyderabad,Telangana,8879943239,8590945573,,407
+804,wpBot0804,Trimulgherry,Hyderabad,Telangana,9994306163,8519537361,,259
+805,wpBot0805,Trimulgherry,Hyderabad,Telangana,7911105398,8453509370,,472
+806,wpBot0806,Trimulgherry,Hyderabad,Telangana,9541244241,9345578108,,874
+807,wpBot0807,Trimulgherry,Hyderabad,Telangana,9586989013,8844242252,,507
+808,wpBot0808,Trimulgherry,Hyderabad,Telangana,7235745331,8980991457,,134
+809,wpBot0809,Trimulgherry,Hyderabad,Telangana,7288478070,8267737465,,174
+810,wpBot0810,Trimulgherry,Hyderabad,Telangana,7259690040,7097539483,,180
+811,wpBot0811,Trimulgherry,Hyderabad,Telangana,8151070103,7107676428,,848
+812,wpBot0812,Trimulgherry,Hyderabad,Telangana,8404041641,8115033611,,664
+813,wpBot0813,Trimulgherry,Hyderabad,Telangana,8954917894,7220188822,,614
+814,wpBot0814,Trimulgherry,Hyderabad,Telangana,9467531292,8678196463,,372
+815,wpBot0815,Trimulgherry,Hyderabad,Telangana,7640763240,7459017530,,926
+816,wpBot0816,Trimulgherry,Hyderabad,Telangana,7732837546,8125990653,,199
+817,wpBot0817,Trimulgherry,Hyderabad,Telangana,9394187915,8517332454,,496
+818,wpBot0818,Trimulgherry,Hyderabad,Telangana,9149492675,7837956821,,260
+819,wpBot0819,Trimulgherry,Hyderabad,Telangana,8418484961,8181962211,,115

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: rgb(0, 0, 0);}
+            #welcome{font-size: 4vw;color: white;}
+            *{font-size: 4vw;color:white}
+            #details{text-align: center;}
+            #signout{text-align:right;position:absolute;top: 0%;right:5%;border: 1px solid whitesmoke;padding:1%;}
+        </style>
+    </head>
+    <body >
+            <p style="font-size: 5vw;" id="welcome">h</p>
+          <a href="http://wconnect.42web.io">  <p id="signout">Sign out</p></a>
+        
+
+        <p style="font-size: 5vw;text-align: center;">Your details</p>
+        <p id="details"></p>
+
+        <p>Above mentioned phone number will be used for further contact.</p>
+
+
+        <script>
+
+
+
+var outp;
+function doAJAX(){
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://wconnectopen1.epizy.com/data.php");
+  xhr.onload = function(){
+    outp = this.response;
+    console.log(outp);
+    outp=JSON.parse(outp);
+
+    welcome();
+    
+  };
+  xhr.send();
+ 
+}
+doAJAX();
+
+function welcome(){
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    const ppn = urlParams.get('pn')
+    console.log(ppn)
+    var fullName;
+    var workplace;
+    var district;
+    var state;
+    var phoneNo1;
+    var phoneNo2;
+    var worksector;
+    var costPerHour;
+    for(i in outp){
+        if(outp[i].phoneNo1.toString()==ppn){
+            fullName=outp[i].fullName
+            workplace=outp[i].workPlace
+            district=outp[i].district
+            state=outp[i].state
+            phoneNo1=outp[i].phoneNo1
+            phoneNo2=outp[i].phoneNo2
+            worksector=outp[i].worksector
+            costPerHour=outp[i].costPerHour
+
+            break;
+        }
+    }
+    document.getElementById("welcome").innerHTML="Welcome "+fullName;
+    document.getElementById("welcome").style.fontSize ="5vw";
+
+    document.getElementById("details").innerHTML="Full Name  : "+fullName + "<br />" +"\nWork Place : "+workplace + "<br />"+"\nDistrict   : "+district + "<br />"+"\nState      : "+state + "<br />"+"\nPhoneNo1   : "+phoneNo1 + "<br />"+"\nPhoneNo2   : "+phoneNo2 + "<br />"+"\nWork sector: "+worksector + "<br />"+"\nCost per hour:"+costPerHour + "<br />";
+
+
+
+}
+
+        </script>
+    </body>
+</html>

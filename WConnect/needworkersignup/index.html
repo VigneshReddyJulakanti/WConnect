@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta name="viewport" content="width=device-width,intial-scale=1.0"> -->
+
+        <style>
+            body{background-image: url(https://bn1304files.storage.live.com/y4mhab1Li0A9fkidvgBGPgv3ONrEtnmZo5aKxwbBWpJ9WPGH1lIJxg9dvnXEjcBY7QSPsYfiYK_AwjOQbD4fQjAdlSAIBe1T_VaRKRGr6Sn7S2QYhtlLOV4-5gcZg0AtyAXQI1g3AhemN4QhqaKpzu-4avm8Ly5ToDMx1Vxg3NG9Pl3QkvwgPnh4iwV0R1Totnl?width=1000&height=1428&cropmode=none);background-repeat: no-repeat;background-size: cover;}
+            p{font-size: 250%;}
+            input{position: absolute;left: 110%;}
+
+        </style>
+    </head>
+    <body >
+        <div>
+            <h  style="font-size: 300%; position: absolute;left: 40%;"> sign up </h>
+            </div>
+            <form onsubmit="return myFunction()" method="post" action="http://needworkersignupwconnect.epizy.com/usersinfo.php" style="position: absolute;top: 10%;left: 20%;">
+           <p>Name:<input id="name" name="name" required/></p>
+           <p> Username:<input id="username" name="username" required/></p>
+           <p id="uused"></p>
+           <p> password:<input id="p1" type="password" name="password" required/></p>
+           <p> password:<input id="p2" type="password"  placeholder="Re enter password" required/></p>
+           <p id="pmatch"></p>
+           <button style="position: absolute;left:50% ; font-size: 150%;" onclick="cliiick()"  > Submit </button>
+        </form>
+
+        <script>
+
+
+var outp;
+function doAJAX(){
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://needworkersignupwconnect.epizy.com/data.php");
+  xhr.onload = function(){
+    outp = this.response;
+    console.log(outp);
+    outp=JSON.parse(outp);
+  };
+  xhr.send();
+}
+doAJAX();
+        function myFunction(){
+            uname=document.getElementById("username").value;
+            for(i in outp){
+               if( outp[i].username==uname){
+                    document.getElementById("uused").innerHTML="Username is already used, try another one";
+                    document.getElementById("uused").style.color="red";
+                    document.getElementById("uused").style.fontSize="2vw";
+
+                   return false;
+               }
+            }
+            document.getElementById("uused").innerHTML="";
+            p1=document.getElementById("p1").value;
+            p2=document.getElementById("p2").value;
+            if(p1!=p2){
+                document.getElementById("pmatch").innerHTML="Enter the same password in both the fields";
+                document.getElementById("pmatch").style.color="red";
+                document.getElementById("pmatch").style.fontSize="2vw";
+
+                return false;
+
+            }
+
+            return true;
+
+        }
+
+        function cliiick(){
+            if(myFunction()){
+                
+                var un=document.getElementById("username").value
+                lin="http://wconnecthome.epizy.com/"+"?un="+un;
+                window.open(lin);
+            }
+        }
+        </script>
+        
+    </body>
+</html>

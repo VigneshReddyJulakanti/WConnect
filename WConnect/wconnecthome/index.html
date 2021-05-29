@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+    <style>
+     
+        #welcome{color: white;}
+        #welcome:hover{color:lightgreen;}
+        #nav{width: 100%;height: 10%;background-color: lightcoral;position:absolute;top:0px;left:0px;}
+        .but{background-color: lightcoral;border-radius: 10%; border-color: white;color: white;font-size: 210%}
+        #nav .but:hover{color:lightcoral; background-color: white;font-size: 220%;border-color:green}
+        #nxt{position: absolute; bottom: 0px; left: 15%; height: 90%;width: 100%; background-image: url("https://bn1304files.storage.live.com/y4mK-9-vIQOJOSdDth5jlC5AdqXR7cUbVUXkZwHj-gtjsAvZCToirPMKLLzgCOHzhnsGaLE8dbeIb2D8iicxBI3eurK_xcY42KeL-LAX1fYDCKRzjssWR8m8eGsrDCPucbj_nqfPYON09y0kFahMHKAHM-uj1GCPEHt-DlcrdfvzMCi-BTt5JOJ_s2Ex1LBADSs?width=1920&height=1080&cropmode=none");  background-size: contain;background-repeat: no-repeat;}
+        input,.op{position: relative;left: 30%;font-size: 3vw;}
+        
+        #form{ height: 90%;width: 100%;}
+        #res{width: 100%;height: 90%;}
+        #sb{font-size: 2vw;}
+        .resp{font-size: 2vw;text-align: center;border: 1px solid black;}
+        select{position: absolute;left: 15%;font-size: 2vw;}
+        option{position: relative;left: 30%;font-size: 2vw;}
+
+    </style>
+
+    <body >
+        
+
+        <div id="nav">
+            <h >
+               <p id="welcome" style="font-size: 280%;text-align: left;position: absolute;top: -50%;left:3%;"><b></b></p> 
+       
+            </h>
+            <button onclick="oc()" class="but" id="SignIn" style="position: absolute;top:10%;right:10%;;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Search for workers</button>
+        </div>
+        <div id="nxt"></div>
+        <div id="res" style="visibility: hidden;"></div>
+        <div id="form" style="visibility: hidden;">
+
+
+          <p class="op">
+            <br>
+            worksector: <select name="worksector" id="worksector">
+              <option value="not selected" selected="selected">worksector</option>
+              </select>
+              <br>
+            </p>
+
+            <p class="op">
+                <br>
+                State: <select name="state" id="state">
+                    <br><option id="state"  selected="selected">Select state</option><br>
+                  </select><br>
+                  
+                </p>
+                <p class="op">
+                    <br>
+                  District: <select name="district" id="district">
+                    <br><option value="" selected="selected">Select district</option><br>
+                  </select><br>
+                  
+                </p>
+                <p class="op">
+    
+                    <br>
+                  Mandal : <select name="workPlace" id="workPlace">
+                    <br> <option value="" selected="selected">Select workPlace</option><br>
+                  </select><br>
+                  
+                </p>
+
+                <p style="text-align: center;" ><button id="sb" onclick="ons()" >Search</button></p>
+      
+        
+        
+        </div>
+       
+
+
+<script>
+
+var detuser;
+var detworker;
+function doAJAX(){
+
+    console.log("do");
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://wconnecthome.epizy.com/datauser.php");
+  xhr.onload = function(){
+    detuser = this.response;
+    console.log(detuser);
+    detuser=JSON.parse(detuser);
+    welcome();
+  };
+  xhr.send();
+
+
+  
+ 
+}
+function doAJAX2(){
+var vrrr = new XMLHttpRequest();
+  vrrr.open("POST", "http://wconnecthome.epizy.com/dataworker.php");
+  vrrr.onload = function(){
+    detworker = this.response;
+    console.log(detworker);
+    detworker=JSON.parse(detworker);
+    
+  };
+  vrrr.send();
+}
+doAJAX();
+doAJAX2();
+    
+
+
+function welcome(){
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    const ppn = urlParams.get('un')
+    console.log(ppn)
+    var name;
+
+    for(i in detuser){
+        if(detuser[i].username==ppn){
+            name=detuser[i].name
+
+
+            break;
+        }
+    }
+
+    document.getElementById("welcome").innerHTML="Welcome "+name;
+    document.getElementById("welcome").style.fontSize ="3vw";
+
+    
+
+
+
+}
+
+
+function oc(){
+    document.getElementById("nxt").style.visibility = "hidden"; 
+    document.getElementById("form").style.visibility = "visible"; 
+
+}
+
+var worksector=["Carpenter","Electrician","Plumber","Painter","Glazier","Mason & Concrete Finisher","Brick Mason","Dry Wall Installer","Welder","Elevator Mechanic","Tile Setter","","","","","",""];
+
+var worksectorSel=document.getElementById("worksector");
+for (var x in worksector) {
+  worksectorSel.options[worksectorSel.options.length] = new Option(worksector[x], worksector[x]);
+}
+
+var subjectObject = {
+
+"Telangana":{
+"Adilabad":["Adilabad(urban)","Adilabad(rural)","Mavala","Gudihatnoor","Bajahatnoor","Bela","Boadh","Jainath","Indervelly","Narnoor","Gudiguda","Utnoor"],
+"Bhadradri_Kothagudem":["Kothagudem","Palwancha","Tekulapalli","Yellandu","Chandrugonda","Aswaraopeta","Mulakalapalli","Dammapeta","Gundala","Julurpadu","Sujathangar","Chunchupalle","Laxmidevipalli","Allapalli","Annapureddypalli","Bhadrachalam","Dummugudem","Cherla","Burgampahad","Aswapuram"],
+"Hyderabad":["Secunderabad","Amberpet","Asifnagar","Bahadurpura","Bandlaguda","Charminar","Golkonda","Himayathnagar","Nampally","Saidabad","Ameerpet","Khairtabad","Marredpally","Musheerabad","Shaikpet","Trimulgherry"],
+"Jagitial":["Jagitial","Jagitial(Rural)","Raikal","Sarangapur","Beeerpur","Dharmapuri","Buggaram","Pegadapalli","Gollapalli","Mallial","Kodimial","Velgatur","Korutla","Metpalli","Mallapur","Ibrahimpatnam","Medipalli","Kathlapur"],
+"Jangaon":["Bachannapeta","Devaruppala","Gundala","Jangaon","Lingalaghanpur","Narmetta","Raghunathapalle","Tarigoppula","Chilpur","Zaffergadh","Kodakandla","Palakurthi","Station Ghanpur"],
+"Jayashankar_Bhupalpally":["Bhupalaplle","Chityal","Ghanpur","Kataram","Mahadevpur","Maha Mutharam","Malharrao","Mogullapalle","Palimela","Regonda","Tekumatla","Eturunagaram","Govindaraopet","Mangapet","Mulug","Tadvai","Vajedu","Venkatapur","Kannaigudem"],
+"Jogulamba_Gadwal":["Ieeja","Maldakal","Manopad","Ghattu","Alampur","Dharoor","Gadwal","Itikyala","Kaloor-thimmana Doddi","Rajoli","Undavelly","Waddepally"],
+"Kamareddy":["Kamareddy","Elichpur","Adloor","Isrojiwadi","Gargul","Thimmakkapalle","Gudem","Uggrawai","Shabdipur","Rameswarpalle","Devanpalle","Lingapur(R)","Sarampalle","Kyasampalle","Raghavapur","Patharajampet","Chinna Mallareddy","Arepalle","Achampet","Hasanpalle"],
+"Karimnagar":["Karimnagar","Kothapally","Karimnagar Rural","Manakondur","Thimmapur","Ganneruvaram","Gangadhara","Ramadugu","Choppadandi","Chigurumamidi","Huzurabad","Veenavanka","V.Saidapur","Jammikunta","Ellandakunta","Shankarapatnam"],
+"Khammam":["Khammam ","Khammam Rural","Madhira","Kalluru","Thirumalayapalem","Nelakondapalli","Konijerla","Kusumanchi","Mudigonda","Thallada","Singareni","Wyra","Penuballi","Yerrupalem","Chinthakani","Vemsoor","Bonakal","Kamepalli","Sathupally","Raghunathapalem(New)","Enkuru"],
+"Kumuram_Bheem":["Asifabad","Bejjur","Dahegaon","Jainoor","Kagaznagar","Kerameri","Kouthala","Rebbena","Sirpur(T)","Sirpur(U)","Tiryani","Wankidi"],
+"Mahabubabad":["Mahabubabad","Kuravi","Kesamudram","Dornakal","Gudur","Kothaguda","Gangaram","Bayyaram","Garla","Chinnagudur","Danthalapalle","Thorrur","Nellikudur","Maripeda","Narsimhulapet","Peddavangara"],
+"Mahabubnagar":["Addakal","Balanagar","Bhoothpur","CC Kunta","Devarakadra","Gandeed","Hanwada","Jadcherla","Koilkonda","MBNR","MBNR(U)","Moosapet","Midjil","Nawabpet","Rajapur"],
+"Mancherial":["Chennur","Jaipur","Bheemaram","Kotapally","Luxettipet","Mancherial","Naspur","Hajipur","Mandamarri","Dandepally","Jannaram","Kasipet","Bellampally","Vempally","Nennel","Tandur","Bheemini","Kannepally"],
+"Medak":["Medak","Havelighanpur","Papannapet","Shankarampet-R","Ramayampet","Nizampet","Shankarampet-A","Tekmal","Alladurg","Regode","Narsapur","Kulcharam","Kowdipally","Shivampet","chilipched","Toopran","Chegunta","Narsingi","Yeldurthy","Manoharabad"],
+"Medchal_Malkajgiri":["Alwal","Bachupally","Balanagar","Dundigal","Kukatpally","Malkajgiri","Quthbullapur","Ghatkesar","kapra","Keesara","Medchal","Medipally","shamirpet","Uppal"],
+"Mulugu":["Eturnagaram","Govindaraopet","Kannaigudem","Mangapet","Mulug","Tadvai","Venkatapur","Venkatapuram","Wazeed"],
+"Nagarkurnool":["Nagarkurnool","Tadoor","Pentlavelli","Kollapur","Kodair","Kalwakurthy","Urkonda","Charakonda","Vangoor","Veldanda","Achampet","Uppununthala","Amrabad","Bijnapalle","Telkapalle"],
+"Narayanpet":["Damargidda","Dhanwada","Kosgi","Krishna","Maddur","Maganur","Makthal","Marikal","Narayanpet","Narva","Utkur"],
+"Nalgonda":["Chandur","Chityal","kanagal","Kattangur","Munugode","Nakrekal","Nalgonda","Narayanapoor","Narketpally","Thipparthy","Kethepally","Shaligouraram","Ghattuppal","Damaracherla","Miryalaguda","Vemulapally","Anumula(Haliya)","Nidmanoor","Pedavoora","Tripuraram","Madgulapalli","Tirumalagiri","Chandampeta","Chinthappally","Devarkonda","Gundlapally","Gurrampode","Konda_Mallepally","Marriguda","Nampally","P.A.Pally"],
+"Nirmal":["Basar","Bhainsa","Dasturabad","Dilawarpur","Kaddam(Peddur)","Khanapur","Kubeer","Kuntala","Laxmanchanda","Lokeswaram","Mamda","Mudhole","Narsapur G","Nirmal","Nirmal Rural","Pembi","Sarangapur","Soan","Tanur"],
+"Nizamabad":["Armoor","Balkonda","Mupkal","Mendora","Kammar palle","Velpur","Morthad","Bheemgal","Jakranpally","Nandipet","Yergatla","Bodhan","Yedapally","Renjal","Kotagiri","Varni","Rudrur","Chandur","Mosra","Mugpal","Dichpally","Dharpally","Indalwai","Makloor","Sirikonda","Navipet"],
+"Peddapalli":["Peddapalli","Sulthanabad","Ramagundam","Manthani","Darmaram","Ramagiri","Kamanpur","Kalva Srirampur","Julapalli","Eligaid","Odela","Mutharam(Manthani)","Palakurthy","Anthergoan"],
+"Rajanna_Sircilla":["Boinpalli","Chandurthi","Ellanthakunta","Gambhiraopet","Konaraopet","Mustabad","Rudrangi","Sircilla","Thangallaplli","Veernapalli","Vemulawada","Vemulawada Rural","Yellareddipet"],
+"Ranga_Reddy":["Chevella","Moinabad","Shahbad","Shankarpalle","Abdullapuramet","Hayathnagar","Ibrahimpatanam","Madgul","Manchal","Yacharam","Amangal","Balapur","Kandukur","Kadthal","Maheswaram","Thalakondapalle","Saroornagar","Gandipet","Rajendranagar","Serilingampally","Shamshabad","Chowderguda","Farooqnagar","Keshampeta","Kondurg","Kothur","Nandigama"],
+"Sangareddy":["Ameenpur","Andole","Gummadidala","Hathnoora","Jinnaram","Kandi","Kondapur","Munipally","Patancheru","Pulkal","Ramachandrapuram","Sadasivpet","sangaredddy","Vatpally","Jharasangam","kohir","Mogudampally","Nyalkal","Raikode","Zaheerabad"],
+"Siddipet":["Siddipet(Urban)","Siddipet(Rural)","Nangnoor","Chinnakodur","Thoguta","Doultabad","Mirdoddi","Dubbak","Cherial","Komuravelli","Gajwel","Jagdevpur","Kondapak","Mulug","Markook","Wargal","Raipole","Husnabad","Akkannapet","Koheda","Bejjanki","Maddur"],
+"Suryapet":["Atmakur(s)","Chivvemla","Jajireddygudem","Mothey","Nuthankal","Penpahad","Suryapet","Thirumalagiri","Thungathurthy","Garidepally","Neredcherla","Nagaram","Maddirala","Palakeedu","Chilkur","Huzurnagar","Kodad","Mattampally","Mellachervu","Mungala","Nadigudem","Ananthagiri","Mallareddygudem"],
+"Vikarabad":["Basheerabad","Bommaraspet","Doulthabad","Kodangal","Peddemul","Tandur","Yelal","Doma","Dharur","Bantwaram","Kulkacherla","Kotepally","Marpalle","Mominpet","Nawabpet","Pudur","Pargi","Vikarabad"],
+"Wanaparthy":["Amarchinta","Atmakur","Chinnambavi","Ghanpur(khilla)","Gopalpeta","Kothakota","Madanapur","Pangal","Pebbair","Peddamandadi","Revally","Srirangapur","Veepanagandla","Wanaparthy"],
+"Warangal_Rural":["Atmakur","Damera","Geesugonda","Parkal","Parvathagiri","Rayaparthy","Sangem","Shayampet","Wardhannapet","Chennaraopet","Duggondi","Khanapur","Narsampet","Nallabelly","Nekkonda"],
+"Warangal_Urban":["Bheemadevarpalli","Dharmasagar","Elkathurthy","Inavole","Hanamkonda","Hasanparthy","Kamalapur","Kazipet","Khila Warangal","Velair","Warangal"],
+"Yadadri_Bhuvanagiri":["Addaguduru","Alair","Atmakur(M)","Bibinagar","Bhongir","Bommalaramaram","Motakondur","Mothkur","Rajapet","Turkapally","Yadagirigutta","Bhoodan_Pochampally","Choutuppal","Narayanpur","Ramannapet","Valigonda"],
+
+
+}
+}
+window.onload = function() {
+var subjectSel = document.getElementById("state");
+var topicSel = document.getElementById("district");
+var chapterSel = document.getElementById("workPlace");
+for (var x in subjectObject) {
+  subjectSel.options[subjectSel.options.length] = new Option(x, x);
+}
+subjectSel.onchange = function() {
+  //empty Chapters- and Topics- dropdowns
+  chapterSel.length = 1;
+  topicSel.length = 1;
+  //display correct values
+  for (var y in subjectObject[this.value]) {
+    topicSel.options[topicSel.options.length] = new Option(y, y);
+  }
+}
+topicSel.onchange = function() {
+  //empty Chapters dropdown
+  chapterSel.length = 1;
+  //display correct values
+  var z = subjectObject[subjectSel.value][this.value];
+  for (var i = 0; i < z.length; i++) {
+    chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+  }
+}
+}
+
+
+function ons(){
+
+
+
+    var dname=document.getElementById("district").value;
+    var wname=document.getElementById("workPlace").value;
+    var wsname=document.getElementById("worksector").value;
+    document.getElementById("form").style.visibility = "hidden"; 
+    document.getElementById("res").style.visibility = "visible"; 
+
+
+
+    var no=1;
+    for(i in detworker){
+        if((detworker[i].district==dname) && (detworker[i].workPlace==wname) && (detworker[i].worksector==wsname)){
+            console.log("worker found");
+
+            fullName=detworker[i].fullName
+            workplace=detworker[i].workPlace
+            district=detworker[i].district
+            state=detworker[i].state
+            phoneNo1=detworker[i].phoneNo1
+            phoneNo2=detworker[i].phoneNo2
+            worksector=detworker[i].worksector
+            costPerHour=detworker[i].costPerHour
+
+            var idiv=document.createElement("div");
+            idiv.className='resp';
+           
+            if(no==1){
+              var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            
+
+            }
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            lion="worker no : "+no; 
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            lion="Full Name  : "+fullName  
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nWork Place : "+workplace   
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nDistrict   : "+district  
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nState      : "+state  
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nPhoneNo1   : "+phoneNo1 
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nPhoneNo2   : "+phoneNo2
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nWork sector: "+worksector
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            
+            lion="\nCost per hour:"+costPerHour 
+            lion2=document.createTextNode(lion);
+            idiv.append(lion2);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+           
+            no=no+1;
+           
+
+
+
+
+
+
+
+
+
+
+
+         
+            document.getElementById("res").appendChild(idiv);
+         
+
+
+
+
+
+
+
+        }
+
+        
+
+
+        
+    }
+    if(no==1){
+
+var idiv=document.createElement("div");
+idiv.className='resp';
+var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+            var linebreak = document.createElement('br');
+            idiv.append(linebreak);
+lion="No worker found in the specified area and work sector";
+lion2=document.createTextNode(lion);
+idiv.append(lion2);
+document.getElementById("res").appendChild(idiv);
+
+}
+
+}
+
+</script>
+
+
+
+
+
+
+    </body>
+</html>
