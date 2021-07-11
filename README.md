@@ -1,6 +1,6 @@
 # WConnect
 
-This is Dynamically hosted on http://wconnect.42web.io/?i=1
+This is Dynamically hosted on http://wconnect.freecluster.eu/
 
 done by 
    Anusha 
